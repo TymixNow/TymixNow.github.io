@@ -1,0 +1,31 @@
+div.post-box, div.post-desc
+{
+    border-width: 0.25em;
+    border-style: solid;
+    margin: 1em 1em 1em 1em;
+}
+div.post-box
+{
+    border-color: #6080a0;
+}
+div.post-desc
+{
+    border-color: #304070;
+}
+body
+{
+    background-color: #000040;
+    color: #c0ffff;
+}
+.gray-out
+{
+    color: #90c0d0;
+}
+a:link, a:visited
+{
+    color: #008080;
+}
+h1 a
+{
+    text-decoration: none;
+}
