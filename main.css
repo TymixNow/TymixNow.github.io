@@ -6,6 +6,8 @@ div.post-box, div.post-desc
 }
 div.post-box
 {
+    width: min(90vw,90vh);
+    margin-inline: auto;
     border-color: #6080a0;
 }
 div.post-desc
