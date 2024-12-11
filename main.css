@@ -56,3 +56,7 @@ h1 a
     display: inline;
     color: #80808040;
 }
+img.proj-ill
+{
+    max-width: min(30vw, 30vh);
+}
