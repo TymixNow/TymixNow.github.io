@@ -24,7 +24,7 @@ body
 {
     color: #b0b0b0b0;
 }
-a:link:not(h1 a), a:visited:not(h1 a)
+a:link:not(h1 a):not(.codename a), a:visited:not(h1 a):not(.codename a)
 {
     color: #c0ffff;
 }
