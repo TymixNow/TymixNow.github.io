@@ -1,0 +1,109 @@
+@use 'sass:list';
+@use 'sass:color';
+@use 'sass:math';
+
+$fonts: 'Courier New', Courier, monospace;
+$colours: #151515 #4b4b4b #808080 #a0a0a0 #b0b0b0 #eaeaea #c0ffff;
+$grayout: 25%;
+$bg-colour: list.nth($colours,1);
+$dark-colour: list.nth($colours,2);
+$light-colour: list.nth($colours,3);
+$highlight-colour: list.nth($colours,6);
+$gray-out-colour: list.nth($colours,3);
+$text-colour: list.nth($colours,4);
+$link-colour: list.nth($colours,7);
+$text-thick-mult: 25;
+$head-thick-prod: 44800px;
+
+@mixin text($size: 16px)
+{
+    font-size: $size;
+    font-weight: min(math.div($text-thick-mult * $size, 1px), 900);
+}
+
+@mixin header($size: 64px, $colour: $highlight-colour, $opacity: 100%)
+{
+    font-size: $size;
+    font-weight: min(math.div($head-thick-prod, $size), 900);
+    $perc: min(math.div((100% - $grayout) * 64px , $size * 100%), 1);
+    color: rgba($colour, $perc * $opacity);
+}
+
+@mixin box($theme: $light-colour)
+{
+    border-width: 0.25em;
+    border-style: solid;
+    margin: 1em 1em 1em 1em;
+    border-color: $theme;
+}
+
+@mixin port($percentage: 90)
+{
+    max-width: min($percentage*1vw,$percentage*1vh);
+    margin-inline: auto;
+}
+
+.gray-out
+{
+    color: rgba($gray-out-colour,100% - $grayout);
+}
+
+div.title, .codename
+{
+    a
+    {
+        text-decoration: none;
+        @include header();
+        transition: 500ms cubic-bezier(0.19, 1, 0.22, 1) color;
+    }
+    a:hover
+    {
+        @include header(64px, $highlight-colour, 133%);
+    }
+    a:not(& a)
+    {
+        color:$link-colour;
+    }
+}
+
+div.title
+{
+    @include text(32px);
+}
+
+.codename
+{
+    @include header();
+    display: inline;
+}
+
+body
+{
+    background-color: $bg-colour;
+    color: $text-colour;
+    font-family: $fonts;
+}
+
+.code-expl
+{
+    @extend .gray-out;
+    @include header(32px, $gray-out-colour, 75%);
+    display: inline;
+}
+
+div.post-box
+{
+    @include box;
+    @include port;
+    @include text;
+}
+
+div.post-desc
+{
+    @include box($theme: $dark-colour);
+}
+
+img.proj-ill
+{
+    @include port(30);
+}
