@@ -12,7 +12,7 @@ div.title a, .codename a {
 div.title a:hover, .codename a:hover {
   font-size: 64px;
   font-weight: 700;
-  color: rgba(234, 234, 234, 0.9975);
+  color: #eaeaea;
 }
 a:not(div.title a, .codename a) {
   color: #c0ffff;

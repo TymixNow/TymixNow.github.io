@@ -21,12 +21,19 @@ $head-thick-prod: 44800px;
     font-weight: min(math.div($text-thick-mult * $size, 1px), 900);
 }
 
-@mixin header($size: 64px, $colour: $highlight-colour, $opacity: 100%)
+@mixin header($size: 64px, $colour: $highlight-colour, $opacity: 100%, $disable-opacity: false)
 {
     font-size: $size;
     font-weight: min(math.div($head-thick-prod, $size), 900);
-    $perc: min(math.div((100% - $grayout) * 64px , $size * 100%), 1);
-    color: rgba($colour, $perc * $opacity);
+    @if not $disable-opacity
+    {
+        $perc: min(math.div((100% - $grayout) * 64px , $size * 100%), 1);
+        color: rgba($colour, $perc * $opacity);
+    }
+    @if $disable-opacity
+    {
+        color: $colour;
+    }
 }
 
 @mixin box($theme: $light-colour)
@@ -58,7 +65,7 @@ div.title, .codename
     }
     a:hover
     {
-        @include header(64px, $highlight-colour, 133%);
+        @include header(64px, $highlight-colour, 100%, true);
     }
     a:not(& a)
     {
