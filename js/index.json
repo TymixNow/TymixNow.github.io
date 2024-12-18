@@ -1,0 +1,41 @@
+[
+    {
+        "codename": "HCG-01",
+        "code-expl": "Hexagonal Cogwheel Game",
+        "title": "Cogwheel Prototype",
+        "img-alt": "Blank Hex",
+        "date":
+        {
+            "year": 2024,
+            "month": 12,
+            "day": 11
+        },
+        "post-desc": "A prototype for a game cogwheel system."
+    },
+    {
+        "codename": "TCR-01",
+        "code-expl": "Tri-Consonantal Roots",
+        "title": "TCR-lang",
+        "img-alt": "Piece of an IPA table",
+        "date":
+        {
+            "year": 2024,
+            "month": 12,
+            "day": 5
+        },
+        "post-desc": "A conlang with plans to make it have Tri-consonantal roots."
+    },
+    {
+        "codename": "CEW-01",
+        "code-expl": "Current Endeavour Website",
+        "title": "This Website",
+        "img-alt": "image of a line of HTML code",
+        "date":
+        {
+            "year": 2024,
+            "month": 10,
+            "day": 11
+        },
+        "post-desc": "Just a place to practise HTML while organising ideas."
+    }
+]
