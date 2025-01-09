@@ -1,3 +1,302 @@
+@keyframes rand-colours-bw {
+  1% {
+    background-color: rgba(44, 44, 44, 0.5);
+  }
+  2% {
+    background-color: rgba(96, 96, 96, 0.5);
+  }
+  3% {
+    background-color: rgba(203, 203, 203, 0.5);
+  }
+  4% {
+    background-color: rgba(177, 177, 177, 0.5);
+  }
+  5% {
+    background-color: rgba(112, 112, 112, 0.5);
+  }
+  6% {
+    background-color: rgba(105, 105, 105, 0.5);
+  }
+  7% {
+    background-color: rgba(252, 252, 252, 0.5);
+  }
+  8% {
+    background-color: rgba(237, 237, 237, 0.5);
+  }
+  9% {
+    background-color: rgba(2, 2, 2, 0.5);
+  }
+  10% {
+    background-color: rgba(194, 194, 194, 0.5);
+  }
+  11% {
+    background-color: rgba(204, 204, 204, 0.5);
+  }
+  12% {
+    background-color: rgba(56, 56, 56, 0.5);
+  }
+  13% {
+    background-color: rgba(147, 147, 147, 0.5);
+  }
+  14% {
+    background-color: rgba(5, 5, 5, 0.5);
+  }
+  15% {
+    background-color: rgba(133, 133, 133, 0.5);
+  }
+  16% {
+    background-color: rgba(78, 78, 78, 0.5);
+  }
+  17% {
+    background-color: rgba(136, 136, 136, 0.5);
+  }
+  18% {
+    background-color: rgba(77, 77, 77, 0.5);
+  }
+  19% {
+    background-color: rgba(115, 115, 115, 0.5);
+  }
+  20% {
+    background-color: rgba(126, 126, 126, 0.5);
+  }
+  21% {
+    background-color: rgba(200, 200, 200, 0.5);
+  }
+  22% {
+    background-color: rgba(136, 136, 136, 0.5);
+  }
+  23% {
+    background-color: rgba(180, 180, 180, 0.5);
+  }
+  24% {
+    background-color: rgba(124, 124, 124, 0.5);
+  }
+  25% {
+    background-color: rgba(241, 241, 241, 0.5);
+  }
+  26% {
+    background-color: rgba(233, 233, 233, 0.5);
+  }
+  27% {
+    background-color: rgba(177, 177, 177, 0.5);
+  }
+  28% {
+    background-color: rgba(96, 96, 96, 0.5);
+  }
+  29% {
+    background-color: rgba(190, 190, 190, 0.5);
+  }
+  30% {
+    background-color: rgba(58, 58, 58, 0.5);
+  }
+  31% {
+    background-color: rgba(115, 115, 115, 0.5);
+  }
+  32% {
+    background-color: rgba(100, 100, 100, 0.5);
+  }
+  33% {
+    background-color: rgba(33, 33, 33, 0.5);
+  }
+  34% {
+    background-color: rgba(133, 133, 133, 0.5);
+  }
+  35% {
+    background-color: rgba(221, 221, 221, 0.5);
+  }
+  36% {
+    background-color: rgba(244, 244, 244, 0.5);
+  }
+  37% {
+    background-color: rgba(102, 102, 102, 0.5);
+  }
+  38% {
+    background-color: rgba(16, 16, 16, 0.5);
+  }
+  39% {
+    background-color: rgba(111, 111, 111, 0.5);
+  }
+  40% {
+    background-color: rgba(187, 187, 187, 0.5);
+  }
+  41% {
+    background-color: rgba(51, 51, 51, 0.5);
+  }
+  42% {
+    background-color: rgba(79, 79, 79, 0.5);
+  }
+  43% {
+    background-color: rgba(245, 245, 245, 0.5);
+  }
+  44% {
+    background-color: rgba(231, 231, 231, 0.5);
+  }
+  45% {
+    background-color: rgba(198, 198, 198, 0.5);
+  }
+  46% {
+    background-color: rgba(162, 162, 162, 0.5);
+  }
+  47% {
+    background-color: rgba(248, 248, 248, 0.5);
+  }
+  48% {
+    background-color: rgba(177, 177, 177, 0.5);
+  }
+  49% {
+    background-color: rgba(147, 147, 147, 0.5);
+  }
+  50% {
+    background-color: rgba(126, 126, 126, 0.5);
+  }
+  51% {
+    background-color: rgba(3, 3, 3, 0.5);
+  }
+  52% {
+    background-color: rgba(37, 37, 37, 0.5);
+  }
+  53% {
+    background-color: rgba(240, 240, 240, 0.5);
+  }
+  54% {
+    background-color: rgba(124, 124, 124, 0.5);
+  }
+  55% {
+    background-color: rgba(238, 238, 238, 0.5);
+  }
+  56% {
+    background-color: rgba(114, 114, 114, 0.5);
+  }
+  57% {
+    background-color: rgba(89, 89, 89, 0.5);
+  }
+  58% {
+    background-color: rgba(74, 74, 74, 0.5);
+  }
+  59% {
+    background-color: rgba(240, 240, 240, 0.5);
+  }
+  60% {
+    background-color: rgba(10, 10, 10, 0.5);
+  }
+  61% {
+    background-color: rgba(172, 172, 172, 0.5);
+  }
+  62% {
+    background-color: rgba(140, 140, 140, 0.5);
+  }
+  63% {
+    background-color: rgba(52, 52, 52, 0.5);
+  }
+  64% {
+    background-color: rgba(13, 13, 13, 0.5);
+  }
+  65% {
+    background-color: rgba(19, 19, 19, 0.5);
+  }
+  66% {
+    background-color: rgba(252, 252, 252, 0.5);
+  }
+  67% {
+    background-color: rgba(144, 144, 144, 0.5);
+  }
+  68% {
+    background-color: rgba(30, 30, 30, 0.5);
+  }
+  69% {
+    background-color: rgba(156, 156, 156, 0.5);
+  }
+  70% {
+    background-color: rgba(89, 89, 89, 0.5);
+  }
+  71% {
+    background-color: rgba(184, 184, 184, 0.5);
+  }
+  72% {
+    background-color: rgba(227, 227, 227, 0.5);
+  }
+  73% {
+    background-color: rgba(236, 236, 236, 0.5);
+  }
+  74% {
+    background-color: rgba(69, 69, 69, 0.5);
+  }
+  75% {
+    background-color: rgba(165, 165, 165, 0.5);
+  }
+  76% {
+    background-color: rgba(27, 27, 27, 0.5);
+  }
+  77% {
+    background-color: rgba(175, 175, 175, 0.5);
+  }
+  78% {
+    background-color: rgba(199, 199, 199, 0.5);
+  }
+  79% {
+    background-color: rgba(204, 204, 204, 0.5);
+  }
+  80% {
+    background-color: rgba(24, 24, 24, 0.5);
+  }
+  81% {
+    background-color: rgba(48, 48, 48, 0.5);
+  }
+  82% {
+    background-color: rgba(116, 116, 116, 0.5);
+  }
+  83% {
+    background-color: rgba(202, 202, 202, 0.5);
+  }
+  84% {
+    background-color: rgba(252, 252, 252, 0.5);
+  }
+  85% {
+    background-color: rgba(201, 201, 201, 0.5);
+  }
+  86% {
+    background-color: rgba(199, 199, 199, 0.5);
+  }
+  87% {
+    background-color: rgba(54, 54, 54, 0.5);
+  }
+  88% {
+    background-color: rgba(13, 13, 13, 0.5);
+  }
+  89% {
+    background-color: rgba(121, 121, 121, 0.5);
+  }
+  90% {
+    background-color: rgba(140, 140, 140, 0.5);
+  }
+  91% {
+    background-color: rgba(213, 213, 213, 0.5);
+  }
+  92% {
+    background-color: rgba(84, 84, 84, 0.5);
+  }
+  93% {
+    background-color: rgba(188, 188, 188, 0.5);
+  }
+  94% {
+    background-color: rgba(74, 74, 74, 0.5);
+  }
+  95% {
+    background-color: rgba(85, 85, 85, 0.5);
+  }
+  96% {
+    background-color: rgba(162, 162, 162, 0.5);
+  }
+  97% {
+    background-color: rgba(29, 29, 29, 0.5);
+  }
+  98% {
+    background-color: rgba(162, 162, 162, 0.5);
+  }
+  99% {
+    background-color: rgba(187, 187, 187, 0.5);
+  }
+}
 .gray-out, .code-expl {
   color: rgba(128, 128, 128, 0.75);
 }
@@ -31,9 +330,48 @@ div.title {
 }
 
 body {
-  background-color: #151515;
   color: #a0a0a0;
   font-family: "Courier New", Courier, monospace;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.bg {
+  background: linear-gradient(#151515 9px, transparent 1px) right top/10px 10px padding-box repeat scroll, linear-gradient(90deg, #151515 9px, transparent 0) right top/10px 10px repeat scroll;
+  animation: rand-colours-bw 100s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+  z-index: -1;
+}
+
+.layerer {
+  min-width: 100%;
+  min-height: 100%;
+  width: fit-content;
+  height: fit-content;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.main-wrapper {
+  min-width: 100%;
+  min-height: 100%;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+.main-wrapper > * {
+  min-width: 100%;
+  min-height: 100%;
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
 }
 
 .code-expl {
