@@ -2,6 +2,26 @@
 @use 'sass:color';
 @use 'sass:math';
 
+@function chaos($reps: 1,$start: 0.1)
+{
+    $chaos: $start;
+    @for $i from 1 through $reps
+    {
+        $chaos: $chaos * (1 - $chaos) * 4;
+    }
+    @return $chaos;
+}
+
+@function getchaos($num: 1, $start: 0.1)
+{
+    $chaos: ();
+    @for $i from 1 through $num
+    {
+        $chaos: list.append($chaos, chaos($i, $start));
+    }
+    @return $chaos;
+}
+
 @function getrands($num: 1, $limit: 255)
 {
     $rands: ();
@@ -12,7 +32,8 @@
     @return $rands;
 }
 
-$rands: getrands(99);
+$rands: getrands(99,null);
+$chaos: getchaos(99);
 
 @keyframes rand-colours-bw
 {
@@ -20,7 +41,7 @@ $rands: getrands(99);
     {
         #{$i%100%}
         {
-            background-color: rgba(list.nth($rands, $i), list.nth($rands, $i), list.nth($rands, $i), 0.5);
+            background-color: rgba(#ffffff,1 - list.nth($chaos, $i));
         }
     }
 }
@@ -81,9 +102,10 @@ $head-thick-prod: 44800px;
 @mixin fit()
 {
     min-width: 100%;
-    min-height: 100%;
-    width: fit-content;
-    height: fit-content;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    padding: 0;
 }
 
 .gray-out
@@ -122,42 +144,54 @@ div.title
 
 body
 {
+    @include fit();
     color: $text-colour;
     font-family: $fonts;
-    width: 100%;
-    height: 100%;
     margin: 0;
 }
 html
 {
-    height: 100%;
-    width: 100%;
+    @include fit();
     margin: 0;
+    margin: 0;
+    padding: 0;
+
 }
 .bg
 {
     background: background-grid(9px, 10px, $bg-colour, transparent);
     animation: rand-colours-bw 100s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
-    z-index: -1;
-}
-
-.layerer
-{
-    @include fit();
-    z-index: 0;
-    height: 100%;
-    width: 100%;
-    
 }
 
 .main-wrapper
 {
-    @include fit();
     position: relative;
-    > * 
+    @include fit();
+    > *:not(:first-child)
     {
         @include fit();
         position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+
+    @for $i from 1 through 99
+    {
+        > div:nth-child(#{$i})
+        {
+            z-index: 1-$i;
+        }
+    }
+    &::after
+    {
+        content: "";
+        @include fit();
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        z-index: -100;
+        background-color: $bg-colour;
     }
 }
 
@@ -166,6 +200,12 @@ html
     @extend .gray-out;
     @include header(32px, $gray-out-colour, 75%);
     display: inline;
+}
+
+.scroll-box
+{
+    padding: 1em 1em 1em 1em;
+    overflow:auto;
 }
 
 div.post-box
