@@ -1,6 +1,7 @@
 @use 'sass:list';
 @use 'sass:color';
 @use 'sass:math';
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 
 @function chaos($reps: 1,$start: 0.1)
 {
@@ -51,7 +52,7 @@ $chaos: getchaos(99);
     @return (linear-gradient($grid-colour $thickness, transparent 1px) right top/ $hole-size $hole-size padding-box repeat scroll, linear-gradient(90deg, $grid-colour $thickness, $hole-colour 0) right top/ $hole-size $hole-size repeat scroll);
 }
 
-$fonts: 'Courier New', Courier, monospace;
+$fonts: 'Kode Mono', 'Courier New', Courier, monospace;
 $colours: #151515 #4b4b4b #808080 #a0a0a0 #b0b0b0 #eaeaea #c0ffff;
 $grayout: 25%;
 $bg-colour: list.nth($colours,1);

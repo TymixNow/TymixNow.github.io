@@ -1,0 +1,48 @@
+$title = "TymixNow\'s Main Page"
+$contents = [
+  {
+      codename: "HCG-01",
+      code_expl: "Hexagonal Cogwheel Game",
+      title: "Cogwheel Prototype",
+      img_alt: "Blank Hex",
+      date:
+      {
+          year: 2024,
+          month: 12,
+          day: 11
+      },
+      post_desc: "A prototype for a game cogwheel system."
+  },
+  {
+      codename: "TCR-01",
+      code_expl: "Tri-Consonantal Roots",
+      title: "TCR-lang",
+      img_alt: "Piece of an IPA table",
+      date:
+      {
+          year: 2024,
+          month: 12,
+          day: 5
+      },
+      post_desc: "A conlang with plans to make it have Tri-consonantal roots."
+  },
+  {
+      codename: "CEW-01",
+      code_expl: "Current Endeavour Website",
+      title: "This Website",
+      img_alt: "image of a line of HTML code",
+      date:
+      {
+          year: 2024,
+          month: 10,
+          day: 11
+      },
+      post_desc: "Just a place to practise HTML while organising ideas."
+  }
+]
+$contents.each do |content|
+  content[:mm] = '%02d' % content[:date][:month].to_s
+  content[:dd] = '%02d' % content[:date][:day].to_s
+  content[:date_link] = "#{content[:date][:year]}/#{content[:mm]}/#{content[:dd]}"
+  content[:date] = "#{content[:dd]}.#{content[:mm]}.#{content[:date][:year]}"
+end

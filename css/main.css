@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
 @keyframes rand-colours-bw {
   1% {
     background-color: rgba(255, 255, 255, 0.64);
@@ -336,7 +337,7 @@ body {
   z-index: 0;
   padding: 0;
   color: #a0a0a0;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Kode Mono", "Courier New", Courier, monospace;
   margin: 0;
 }
 

@@ -1,0 +1,23 @@
+!!! 5
+%html{lang: "en"}
+%head
+    - require_relative 'data.rb'
+    %meta{charset: "UTF-8"}
+    %meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
+    %title= $title
+    %link{rel:"stylesheet", href:"css/main.css"}
+%body
+    .main-wrapper
+        .scroll-box.bg
+            - $contents.each do |content|
+                .post-box
+                    .codename
+                        %a{href:"#{content[:date_link]}.html"}
+                            = content[:codename]
+                    .code-expl= content[:code_expl]
+                    %h1= content[:title]
+                    %img.proj-ill{src: "#{content[:date_link]}.png", alt: "#{content[:img_alt]}"}
+                    .date
+                        %h3= content[:date]
+                    .post-desc= content[:post_desc]
+        .grid
