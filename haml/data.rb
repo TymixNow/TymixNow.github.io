@@ -1,4 +1,29 @@
-$title = "TymixNow\'s Main Page"
+$title = {
+    "index": "TymixNow\'s Main Page",
+    "projects": "TymixNow\'s projects"
+}
+
+$me = {
+    name: "TymixNow",
+    title: "Programmer, Conlanger, and Game\u00A0Designer",
+    img_link: "img/me",
+    img_alt: "A picture of me",
+    desc: "Music theorist, mathematician<br>Bit of a linguist, theoretician<br>Chemist, conlanger<br>Worldbuilder, programmer<br>In no particular order.<br>INTP<br>Ti-Ne-Si-Fe<br>AuDHD<br>Mat-chem",
+    projects_link_text: "Projects",
+    projects_top_desc: "Newest project:",
+}
+
+$footer = [
+    {
+        text: "Main",
+        link: "index",
+    },
+    {
+        text: "Projects",
+        link: "projects",
+    },
+]
+
 $contents = [
   {
       codename: "HCG-01",

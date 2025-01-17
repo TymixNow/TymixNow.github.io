@@ -1,0 +1,37 @@
+!!! 5
+%html{lang: "en"}
+%head
+    - require_relative 'data.rb'
+    %meta{charset: "UTF-8"}
+    %meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
+    %title= $title[:index]
+    %link{rel:"stylesheet", href:"css/main.css"}
+%body
+    .main-wrapper
+        .scroll-bg.bg
+            .top-box.box 
+                .codename
+                    = $me[:name]
+                .code-expl= $me[:title]
+                %br
+                .img-box.box
+                    %img.proj-ill{src: "#{$me[:img_link]}.png", alt: "#{$me[:img_alt]}"}
+                .post-desc-box.box!= $me[:desc]
+            .box
+                .codename
+                    %a{href:"projects.html"}
+                        = $me[:projects_link_text]
+                %br
+                =$me[:projects_top_desc]
+                - content = $contents[0]
+                .post-box.box
+                    .codename
+                        %a{href:"#{content[:date_link]}.html"}
+                            = content[:codename]
+                    .code-expl= content[:code_expl]
+                    %h1= content[:title]
+                    .img-box.box
+                        %img.proj-ill{src: "#{content[:date_link]}.png", alt: "#{content[:img_alt]}"}
+                    .date
+                        %h3= content[:date]
+                    .post-desc-box.box= content[:post_desc]

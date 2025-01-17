@@ -86,17 +86,19 @@ $head-thick-prod: 44800px;
     }
 }
 
-@mixin box($theme: $light-colour)
+@mixin box($theme: $light-colour, $collapse-margin: false)
 {
-    border-width: 0.25em;
+    border-width: 0.25rem;
     border-style: solid;
-    margin: 1em 1em 1em 1em;
+    margin: 1rem 1rem 0rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     border-color: $theme;
+    box-sizing: border-box;
 }
 
 @mixin port($percentage: 90)
 {
-    max-width: min($percentage*1vw,$percentage*1vh);
+    max-width: $percentage*1vmin;
     margin-inline: auto;
 }
 
@@ -109,6 +111,36 @@ $head-thick-prod: 44800px;
     padding: 0;
 }
 
+.footer 
+{
+    box-sizing: border-box;
+    padding: 1em;
+    @include port;
+    > .box
+    {
+        display: inline;
+        margin-right: 1em;
+    }
+}
+
+.box
+{
+    @include box;
+    @include port;
+    @include text;
+}
+
+.box:not(:has(.box))
+{
+    @include box($dark-colour);
+    @include port;
+    @include text;
+}
+
+.img-box
+{
+    width: auto;
+}
 .gray-out
 {
     color: rgba($gray-out-colour,100% - $grayout);
@@ -203,25 +235,28 @@ html
     display: inline;
 }
 
-.scroll-box
+.scroll-bg
 {
     padding: 1em 1em 1em 1em;
-    overflow:auto;
-}
-
-div.post-box
-{
-    @include box;
-    @include port;
-    @include text;
-}
-
-div.post-desc
-{
-    @include box($theme: $dark-colour);
+    overflow: visible;
+    min-height: 100vh;
+    min-width: 100vw;
 }
 
 img.proj-ill
 {
     @include port(30);
+}
+
+.grid-row
+{
+    display: inline;
+    height: 1%;
+    margin: 0;
+    .grid-item
+    {
+        display: inline-block;
+        width: 1%;
+        margin: 0;
+    }
 }
