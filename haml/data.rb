@@ -9,7 +9,7 @@ $me = {
     img_link: "img/me",
     img_alt: "A picture of me",
     desc: "Music theorist, mathematician<br>Bit of a linguist, theoretician<br>Chemist, conlanger<br>Worldbuilder, programmer<br>In no particular order.<br>INTP<br>Ti-Ne-Si-Fe<br>AuDHD<br>Mat-chem",
-    projects_link_text: "More Projects...",
+    projects_link_text: "More Projects\u200B...",
     projects_top_desc: "Newest project:",
 }
 
