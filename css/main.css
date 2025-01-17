@@ -301,12 +301,16 @@
 .footer {
   box-sizing: border-box;
   padding: 1em;
-  max-width: 90vmin;
+  max-width: calc(90vmin - 2rem);
   margin-inline: auto;
 }
 .footer > .box {
   display: inline;
   margin-right: 1em;
+}
+
+.top-box {
+  margin: 0;
 }
 
 .box {
@@ -316,7 +320,7 @@
   padding: 1rem 1rem 1rem 1rem;
   border-color: #808080;
   box-sizing: border-box;
-  max-width: 90vmin;
+  max-width: calc(90vmin - 2rem);
   margin-inline: auto;
   font-size: 16px;
   font-weight: 400;
@@ -329,7 +333,7 @@
   padding: 1rem 1rem 1rem 1rem;
   border-color: #4b4b4b;
   box-sizing: border-box;
-  max-width: 90vmin;
+  max-width: calc(90vmin - 2rem);
   margin-inline: auto;
   font-size: 16px;
   font-weight: 400;
@@ -736,14 +740,14 @@ html {
 }
 
 .scroll-bg {
-  padding: 1em 1em 1em 1em;
+  padding: 1em 0em 1em 0em;
   overflow: visible;
   min-height: 100vh;
   min-width: 100vw;
 }
 
 img.proj-ill {
-  max-width: 30vmin;
+  max-width: calc(30vmin - 2rem);
   margin-inline: auto;
 }
 

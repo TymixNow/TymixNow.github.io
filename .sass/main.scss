@@ -98,7 +98,7 @@ $head-thick-prod: 44800px;
 
 @mixin port($percentage: 90)
 {
-    max-width: $percentage*1vmin;
+    max-width: calc($percentage*1vmin - 2rem);
     margin-inline: auto;
 }
 
@@ -121,6 +121,11 @@ $head-thick-prod: 44800px;
         display: inline;
         margin-right: 1em;
     }
+}
+
+.top-box
+{
+    margin: 0;
 }
 
 .box
@@ -237,7 +242,7 @@ html
 
 .scroll-bg
 {
-    padding: 1em 1em 1em 1em;
+    padding: 1em 0em 1em 0em;
     overflow: visible;
     min-height: 100vh;
     min-width: 100vw;
