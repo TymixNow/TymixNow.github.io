@@ -7,6 +7,12 @@
     %title= $title[:projects]
     %link{rel:"stylesheet", href:"css/main.css"}
 %body
+    %nav
+        %ul
+            - $nav.each do |nav|
+                %li
+                    %a{href:"#{nav[:link]}.html"}= nav[:text]
+                    = "|" unless nav == $nav.last
     .main-wrapper
         .scroll-bg.bg
             - $contents.each do |content|

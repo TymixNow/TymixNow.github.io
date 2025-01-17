@@ -298,6 +298,39 @@
     background-color: rgba(255, 255, 255, 0.8960910575);
   }
 }
+h2 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #eaeaea;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+nav {
+  width: 100%;
+  display: block;
+  position: sticky;
+  background-color: #0000c0;
+}
+nav > ul {
+  display: inline;
+  margin: 0 calc(50vw - 45vmin + 1rem) 0 calc(50vw - 45vmin + 1rem);
+  padding: 0;
+  list-style-type: none;
+}
+nav > ul > li {
+  display: inline;
+  font-size: 32px;
+  font-weight: 900;
+  color: rgb(127.5, 127.5, 127.5);
+}
+nav > ul > li > a {
+  font-size: 32px;
+  font-weight: 900;
+  color: aqua;
+  text-decoration: none;
+}
+
 .footer {
   box-sizing: border-box;
   padding: 1em;
@@ -360,7 +393,7 @@ div.title a:hover, .codename a:hover {
   color: #eaeaea;
 }
 a:not(div.title a, .codename a) {
-  color: #c0ffff;
+  color: #00ffff;
 }
 
 div.title {
@@ -398,7 +431,7 @@ html {
 }
 
 .bg {
-  background: linear-gradient(#151515 9px, transparent 1px) right top/10px 10px padding-box repeat scroll, linear-gradient(90deg, #151515 9px, transparent 0) right top/10px 10px repeat scroll;
+  background: linear-gradient(#151515 9px, transparent 1px) right top/10px 10px padding-box repeat scroll, linear-gradient(90deg, #151515 9px, rgba(21, 21, 21, 0.3) 0) right top/10px 10px repeat scroll;
   animation: rand-colours-bw 100s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
 }
 
