@@ -16,15 +16,28 @@ $me = {
 $nav = [
     {
         text: "Main",
-        link: "index",
+        link: "/index",
     },
     {
         text: "Projects",
-        link: "projects",
+        link: "/projects",
     },
 ]
 
 $contents = [
+    {
+        codename: "TCR-02",
+        code_expl: "Tri-Consonantal Roots",
+        title: "I'm Back!",
+        img_alt: "A piece of a lexicon for a conlang",
+        date:
+        {
+            year: 2025,
+            month: 01,
+            day: 18
+        },
+        post_desc: "Return of (and to) the conlang."
+    },
   {
       codename: "HCG-01",
       code_expl: "Hexagonal Cogwheel Game",
