@@ -22,9 +22,26 @@ $nav = [
         text: "Projects",
         link: "/projects",
     },
+    {
+        text: "Music",
+        link: "/music",
+    },
 ]
 
 $contents = [
+    {
+        codename: "TCR => WBL-01",
+        code_expl: "Tri-Consonatal Roots => WorldBuiLding",
+        title: "Tri-Consonatal Roots merge into WorldBuiLding",
+        img_alt: "a screenshot of a lexicon",
+        date:
+        {
+            year: 2025,
+            month: 01,
+            day: 22
+        },
+        post_desc: "A merger or projects; (both unfinished)"
+    },
     {
         codename: "TCR-02",
         code_expl: "Tri-Consonantal Roots",

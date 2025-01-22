@@ -1,0 +1,32 @@
+!!! 5
+%html{lang: "en"}
+%head
+    - require_relative 'music.rb'
+    %meta{charset: "UTF-8"}
+    %meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
+    %title= $title[:projects]
+    %link{rel:"stylesheet", href:"css/main.css"}
+%body
+    %nav
+        %ul
+            - $nav.each do |nav|
+                %li
+                    %a{href:"#{nav[:link]}.html"}= nav[:text]
+                    = "|" unless nav == $nav.last
+    .main-wrapper
+        .scroll-bg.bg
+            - $contents.each do |collection|
+                .collection-box.box
+                    .codename 
+                        = collection[:collection]
+                    - collection[:music].each do |content|
+                        .post-box.box
+                            %h2
+                                = content[:title]
+                            %audio{controls: "controls"}
+                                %source{src: "#{content[:link]}", type: "#{content[:type]}"}
+                            .description.box 
+                                = content[:description]
+                                .gray-out 
+                                    = content[:comment] unless content[:comment].nil?
+                                %h3= content[:date]
