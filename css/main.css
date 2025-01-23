@@ -318,10 +318,16 @@ h2 a:hover {
   color: #00ffff;
 }
 
+a.material-symbols-rounded {
+  font-size: 61px;
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" -25, "opsz" 48;
+}
+
 nav {
   width: 100%;
   display: block;
   position: sticky;
+  top: 0;
   background-color: #0000c0;
 }
 nav > ul {
@@ -329,15 +335,18 @@ nav > ul {
   margin: 0 calc(50vw - 45vmin + 1rem) 0 calc(50vw - 45vmin + 1rem);
   padding: 0;
   list-style-type: none;
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(127.5, 127.5, 127.5);
 }
 nav > ul > li {
   display: inline;
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 900;
   color: rgb(127.5, 127.5, 127.5);
 }
 nav > ul > li > a {
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 900;
   color: aqua;
   text-decoration: none;
@@ -365,7 +374,8 @@ nav > ul > li > a {
   padding: 1rem 1rem 1rem 1rem;
   border-color: #808080;
   box-sizing: border-box;
-  word-wrap: break-word;
+  word-break: normal;
+  overflow-wrap: anywhere;
   overflow-x: visible;
   max-width: calc(90vmin - 2rem);
   margin-inline: auto;
@@ -380,7 +390,8 @@ nav > ul > li > a {
   padding: 1rem 1rem 1rem 1rem;
   border-color: #4b4b4b;
   box-sizing: border-box;
-  word-wrap: break-word;
+  word-break: normal;
+  overflow-wrap: anywhere;
   overflow-x: visible;
   max-width: calc(90vmin - 2rem);
   margin-inline: auto;

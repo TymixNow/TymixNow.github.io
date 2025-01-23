@@ -95,7 +95,8 @@ $head-thick-prod: 44800px;
     padding: 1rem 1rem 1rem 1rem;
     border-color: $theme;
     box-sizing: border-box;
-    word-wrap: break-word;
+    word-break: normal;
+    overflow-wrap: anywhere;
     overflow-x: visible;
 }
 
@@ -131,11 +132,22 @@ h2
     }
 }
 
+a.material-symbols-rounded 
+{
+    font-size: 61px;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' -25,
+    'opsz' 48
+}
+
 nav
 {
     width: 100%;
     display: block;
     position: sticky;
+    top: 0;
     background-color: $nav-colour;
     & > ul 
     {
@@ -143,19 +155,21 @@ nav
         margin: 0 calc(50vw - 45vmin + 1rem) 0 calc(50vw - 45vmin + 1rem);
         padding: 0;
         list-style-type: none;
+        @include header(48px, color.change($link-colour, $saturation: 0%, $alpha: 0.5, $space: hsl));
         & > li
         {
             display: inline;
-            @include header(32px, color.change($link-colour, $saturation: 0%, $alpha: 0.5));
+            @include header(48px, color.change($link-colour, $saturation: 0%, $alpha: 0.5, $space: hsl));
             & > a
             {
-                @include header(32px, $link-colour);
+                @include header(48px, $link-colour);
                 text-decoration: none;
             }
         }
             
     }
 }
+
 .footer 
 {
     box-sizing: border-box;

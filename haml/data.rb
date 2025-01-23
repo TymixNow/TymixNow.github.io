@@ -15,15 +15,15 @@ $me = {
 
 $nav = [
     {
-        text: "Main",
+        text: "home",
         link: "/index",
     },
     {
-        text: "Projects",
+        text: "science",
         link: "/projects",
     },
     {
-        text: "Music",
+        text: "music_note",
         link: "/music",
     },
 ]
