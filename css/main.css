@@ -365,6 +365,8 @@ nav > ul > li > a {
   padding: 1rem 1rem 1rem 1rem;
   border-color: #808080;
   box-sizing: border-box;
+  word-wrap: break-word;
+  overflow-x: visible;
   max-width: calc(90vmin - 2rem);
   margin-inline: auto;
   font-size: 16px;
@@ -378,6 +380,8 @@ nav > ul > li > a {
   padding: 1rem 1rem 1rem 1rem;
   border-color: #4b4b4b;
   box-sizing: border-box;
+  word-wrap: break-word;
+  overflow-x: visible;
   max-width: calc(90vmin - 2rem);
   margin-inline: auto;
   font-size: 16px;

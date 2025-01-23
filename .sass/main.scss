@@ -87,7 +87,7 @@ $head-thick-prod: 44800px;
     }
 }
 
-@mixin box($theme: $light-colour, $collapse-margin: false)
+@mixin box($theme: $light-colour)
 {
     border-width: 0.25rem;
     border-style: solid;
@@ -95,6 +95,8 @@ $head-thick-prod: 44800px;
     padding: 1rem 1rem 1rem 1rem;
     border-color: $theme;
     box-sizing: border-box;
+    word-wrap: break-word;
+    overflow-x: visible;
 }
 
 @mixin port($percentage: 90)
