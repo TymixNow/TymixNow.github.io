@@ -252,7 +252,7 @@ html
 }
 .bg
 {
-    background: background-grid(9px, 10px, $bg-colour, rgba($bg-colour,0.3));
+    background: background-grid(9px, 10px, $bg-colour, rgba($bg-colour,0.5));
     animation: rand-colours-bw 100s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
 }
 

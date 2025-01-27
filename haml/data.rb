@@ -30,6 +30,19 @@ $nav = [
 
 $contents = [
     {
+        codename: "TCR@WBL-02",
+        code_expl: "Tri-Consonatal Roots @ WorldBuiLding",
+        title: "Tri-Consonatal Roots building finale",
+        img_alt: "a screenshot of a semitic stem table",
+        date:
+        {
+            year: 2025,
+            month: 01,
+            day: 27,
+        },
+        post_desc: "The finale has begun."
+    },
+    {
         codename: "TCR => WBL-01",
         code_expl: "Tri-Consonatal Roots => WorldBuiLding",
         title: "Tri-Consonatal Roots merge into WorldBuiLding",

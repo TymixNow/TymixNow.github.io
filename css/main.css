@@ -455,7 +455,7 @@ html {
 }
 
 .bg {
-  background: linear-gradient(#151515 9px, transparent 1px) right top/10px 10px padding-box repeat scroll, linear-gradient(90deg, #151515 9px, rgba(21, 21, 21, 0.3) 0) right top/10px 10px repeat scroll;
+  background: linear-gradient(#151515 9px, transparent 1px) right top/10px 10px padding-box repeat scroll, linear-gradient(90deg, #151515 9px, rgba(21, 21, 21, 0.5) 0) right top/10px 10px repeat scroll;
   animation: rand-colours-bw 100s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
 }
 
