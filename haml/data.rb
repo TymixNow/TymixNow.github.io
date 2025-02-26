@@ -30,6 +30,19 @@ $nav = [
 
 $contents = [
     {
+        codename: "SCH",
+        code_expl: "Sound Chip",
+        title: "Making Music Chips with Meehow",
+        img_alt: "a few header files used in the project",
+        date:
+        {
+            year: 2025,
+            month: 02,
+            day: 26
+        },
+        post_desc: "Basic Beeps and Waveform tests"
+    },
+    {
         codename: "TCR@WBL-02",
         code_expl: "Tri-Consonatal Roots @ WorldBuiLding",
         title: "Tri-Consonatal Roots building finale",
