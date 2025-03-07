@@ -1,0 +1,1 @@
+ruby editor/daily.rb

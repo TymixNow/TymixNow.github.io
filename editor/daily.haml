@@ -1,12 +1,12 @@
 !!! 5
 %html{lang: "en"}
 %head
-    - require_relative 'data.rb'
+    - require_relative '../haml/data.rb'
     %meta{charset: "UTF-8"}
     %meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
     %title= $title[:index]
     %link{rel:"stylesheet", href:"https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home,music_note,science"}
-    %link{rel:"stylesheet", href:"css/main.css"}
+    %link{rel:"stylesheet", href:"main.css"}
 %body
     %nav
         %ul
@@ -25,8 +25,9 @@
                 .img-box.box
                     %img.proj-ill{src: "#{content[:date_link]}.png", alt: "#{content[:img_alt]}"}
                 .post-desc-box.box
-                    = "I've made a sample list to wav file converter in the meantime."
-                    %br
-                    = "I've used it with my friend Meehow to test some waves for our retro sound chip projects."
-                    %br
-                    = "But you can use it for whatever you want :)"
+                    - while true
+                        - print "> "
+                        - data = gets.chomp 
+                        - break if data == ""
+                        = data
+                        %br

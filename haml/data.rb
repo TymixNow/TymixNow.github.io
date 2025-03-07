@@ -30,7 +30,20 @@ $nav = [
 
 $contents = [
     {
-        codename: "SCH",
+        codename: "CEW-02",
+        code_expl: "Current Endeavour Website",
+        title: "Automation",
+        img_alt: "a ruby script for automating editing",
+        date:
+        {
+            year: 2025,
+            month: 03,
+            day: 07
+        },
+        post_desc: "Makes mistake rate lower (I hope)"
+    },
+    {
+        codename: "SCH-01",
         code_expl: "Sound Chip",
         title: "Making Music Chips with Meehow",
         img_alt: "a few header files used in the project",
