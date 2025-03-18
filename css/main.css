@@ -799,8 +799,6 @@ html {
 .scroll-bg {
   padding: 1em 0em 1em 0em;
   overflow: visible;
-  min-height: 100vh;
-  min-width: 100vw;
 }
 
 img.proj-ill {
