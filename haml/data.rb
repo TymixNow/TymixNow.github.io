@@ -29,6 +29,19 @@ $nav = [
 ]
 
 $contents = [
+  {
+    codename: "GEN-01",
+    code_expl: "GENeral",
+    title: "VM",
+    img_alt: "A screenshot from a virtual machine",
+    date:
+    {
+      year: 2025,
+      month: 03,
+      day: 18,
+    },
+    post_desc: "Virtual Machine",
+  },
     {
         codename: "CEW-02",
         code_expl: "Current Endeavour Website",

@@ -21,7 +21,21 @@ $nav = [
 
 $contents = 
 [
-    {
+  {
+        collection: "Bass",
+        music: 
+        [
+          {
+            title: "Bass One",
+            link: "/music/bass1.ogg",
+            type: "audio/ogg",
+            description: "Some rather bassy music",
+            comment: "Is it bassy enough?",
+            date: "15/03/25",
+          },
+        ]
+  },
+  {
         collection: "Waltzes",
         music:
         [
