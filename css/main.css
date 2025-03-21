@@ -1,303 +1,308 @@
 @import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
 @keyframes rand-colours-bw {
   1% {
-    background-color: rgba(255, 255, 255, 0.64);
+    background-color: rgba(255, 255, 255, 0);
   }
   2% {
-    background-color: rgba(255, 255, 255, 0.0784);
+    background-color: rgba(255, 255, 255, 0);
   }
   3% {
-    background-color: rgba(255, 255, 255, 0.71098624);
+    background-color: rgba(255, 255, 255, 0);
   }
   4% {
-    background-color: rgba(255, 255, 255, 0.1780607739);
+    background-color: rgba(255, 255, 255, 0);
   }
   5% {
-    background-color: rgba(255, 255, 255, 0.4145794613);
+    background-color: rgba(255, 255, 255, 0);
   }
   6% {
-    background-color: rgba(255, 255, 255, 0.0291866738);
+    background-color: rgba(255, 255, 255, 0);
   }
   7% {
-    background-color: rgba(255, 255, 255, 0.8866607527);
+    background-color: rgba(255, 255, 255, 0);
   }
   8% {
-    background-color: rgba(255, 255, 255, 0.5980261507);
+    background-color: rgba(255, 255, 255, 0);
   }
   9% {
-    background-color: rgba(255, 255, 255, 0.0384365049);
+    background-color: rgba(255, 255, 255, 0);
   }
   10% {
-    background-color: rgba(255, 255, 255, 0.8521634401);
+    background-color: rgba(255, 255, 255, 0);
   }
   11% {
-    background-color: rgba(255, 255, 255, 0.4960763541);
+    background-color: rgba(255, 255, 255, 0);
   }
   12% {
-    background-color: rgba(255, 255, 255, 0.00006158);
+    background-color: rgba(255, 255, 255, 0);
   }
   13% {
-    background-color: rgba(255, 255, 255, 0.9997536952);
+    background-color: rgba(255, 255, 255, 0);
   }
   14% {
-    background-color: rgba(255, 255, 255, 0.9990150235);
+    background-color: rgba(255, 255, 255, 0);
   }
   15% {
-    background-color: rgba(255, 255, 255, 0.9960639749);
+    background-color: rgba(255, 255, 255, 0);
   }
   16% {
-    background-color: rgba(255, 255, 255, 0.9843178686);
+    background-color: rgba(255, 255, 255, 0);
   }
   17% {
-    background-color: rgba(255, 255, 255, 0.9382551915);
+    background-color: rgba(255, 255, 255, 0);
   }
   18% {
-    background-color: rgba(255, 255, 255, 0.7682704516);
+    background-color: rgba(255, 255, 255, 0);
   }
   19% {
-    background-color: rgba(255, 255, 255, 0.2878761408);
+    background-color: rgba(255, 255, 255, 0);
   }
   20% {
-    background-color: rgba(255, 255, 255, 0.1799861266);
+    background-color: rgba(255, 255, 255, 0);
   }
   21% {
-    background-color: rgba(255, 255, 255, 0.4096355167);
+    background-color: rgba(255, 255, 255, 0);
   }
   22% {
-    background-color: rgba(255, 255, 255, 0.0326629594);
+    background-color: rgba(255, 255, 255, 0);
   }
   23% {
-    background-color: rgba(255, 255, 255, 0.8736156381);
+    background-color: rgba(255, 255, 255, 0);
   }
   24% {
-    background-color: rgba(255, 255, 255, 0.55835458);
+    background-color: rgba(255, 255, 255, 0);
   }
   25% {
-    background-color: rgba(255, 255, 255, 0.013621028);
+    background-color: rgba(255, 255, 255, 0);
   }
   26% {
-    background-color: rgba(255, 255, 255, 0.9462580175);
+    background-color: rgba(255, 255, 255, 0);
   }
   27% {
-    background-color: rgba(255, 255, 255, 0.7965848728);
+    background-color: rgba(255, 255, 255, 0);
   }
   28% {
-    background-color: rgba(255, 255, 255, 0.3518503472);
+    background-color: rgba(255, 255, 255, 0);
   }
   29% {
-    background-color: rgba(255, 255, 255, 0.0877932786);
+    background-color: rgba(255, 255, 255, 0);
   }
   30% {
-    background-color: rgba(255, 255, 255, 0.6796575248);
+    background-color: rgba(255, 255, 255, 0);
   }
   31% {
-    background-color: rgba(255, 255, 255, 0.1291073049);
+    background-color: rgba(255, 255, 255, 0);
   }
   32% {
-    background-color: rgba(255, 255, 255, 0.5502455651);
+    background-color: rgba(255, 255, 255, 0);
   }
   33% {
-    background-color: rgba(255, 255, 255, 0.0100984673);
+    background-color: rgba(255, 255, 255, 0);
   }
   34% {
-    background-color: rgba(255, 255, 255, 0.9600140471);
+    background-color: rgba(255, 255, 255, 0);
   }
   35% {
-    background-color: rgba(255, 255, 255, 0.8464516941);
+    background-color: rgba(255, 255, 255, 0);
   }
   36% {
-    background-color: rgba(255, 255, 255, 0.4801151054);
+    background-color: rgba(255, 255, 255, 0);
   }
   37% {
-    background-color: rgba(255, 255, 255, 0.0015816361);
+    background-color: rgba(255, 255, 255, 0);
   }
   38% {
-    background-color: rgba(255, 255, 255, 0.9936834618);
+    background-color: rgba(255, 255, 255, 0);
   }
   39% {
-    background-color: rgba(255, 255, 255, 0.9748934416);
+    background-color: rgba(255, 255, 255, 0);
   }
   40% {
-    background-color: rgba(255, 255, 255, 0.9020951236);
+    background-color: rgba(255, 255, 255, 0);
   }
   41% {
-    background-color: rgba(255, 255, 255, 0.6467219536);
+    background-color: rgba(255, 255, 255, 0);
   }
   42% {
-    background-color: rgba(255, 255, 255, 0.0861093267);
+    background-color: rgba(255, 255, 255, 0);
   }
   43% {
-    background-color: rgba(255, 255, 255, 0.6852219577);
+    background-color: rgba(255, 255, 255, 0);
   }
   44% {
-    background-color: rgba(255, 255, 255, 0.1372286945);
+    background-color: rgba(255, 255, 255, 0);
   }
   45% {
-    background-color: rgba(255, 255, 255, 0.5264120804);
+    background-color: rgba(255, 255, 255, 0);
   }
   46% {
-    background-color: rgba(255, 255, 255, 0.002790392);
+    background-color: rgba(255, 255, 255, 0);
   }
   47% {
-    background-color: rgba(255, 255, 255, 0.9888695773);
+    background-color: rgba(255, 255, 255, 0);
   }
   48% {
-    background-color: rgba(255, 255, 255, 0.9559738543);
+    background-color: rgba(255, 255, 255, 0);
   }
   49% {
-    background-color: rgba(255, 255, 255, 0.8316486231);
+    background-color: rgba(255, 255, 255, 0);
   }
   50% {
-    background-color: rgba(255, 255, 255, 0.4399632368);
+    background-color: rgba(255, 255, 255, 0);
   }
   51% {
-    background-color: rgba(255, 255, 255, 0.0144176518);
+    background-color: rgba(255, 255, 255, 0);
   }
   52% {
-    background-color: rgba(255, 255, 255, 0.9431608677);
+    background-color: rgba(255, 255, 255, 0);
   }
   53% {
-    background-color: rgba(255, 255, 255, 0.7855662187);
+    background-color: rgba(255, 255, 255, 0);
   }
   54% {
-    background-color: rgba(255, 255, 255, 0.3261922611);
+    background-color: rgba(255, 255, 255, 0);
   }
   55% {
-    background-color: rgba(255, 255, 255, 0.1208365205);
+    background-color: rgba(255, 255, 255, 0);
   }
   56% {
-    background-color: rgba(255, 255, 255, 0.5750597768);
+    background-color: rgba(255, 255, 255, 0);
   }
   57% {
-    background-color: rgba(255, 255, 255, 0.0225358804);
+    background-color: rgba(255, 255, 255, 0);
   }
   58% {
-    background-color: rgba(255, 255, 255, 0.911887942);
+    background-color: rgba(255, 255, 255, 0);
   }
   59% {
-    background-color: rgba(255, 255, 255, 0.6786067072);
+    background-color: rgba(255, 255, 255, 0);
   }
   60% {
-    background-color: rgba(255, 255, 255, 0.1276014234);
+    background-color: rgba(255, 255, 255, 0);
   }
   61% {
-    background-color: rgba(255, 255, 255, 0.5547227995);
+    background-color: rgba(255, 255, 255, 0);
   }
   62% {
-    background-color: rgba(255, 255, 255, 0.0119783391);
+    background-color: rgba(255, 255, 255, 0);
   }
   63% {
-    background-color: rgba(255, 255, 255, 0.9526605659);
+    background-color: rgba(255, 255, 255, 0);
   }
   64% {
-    background-color: rgba(255, 255, 255, 0.8196063518);
+    background-color: rgba(255, 255, 255, 0);
   }
   65% {
-    background-color: rgba(255, 255, 255, 0.4085928804);
+    background-color: rgba(255, 255, 255, 0);
   }
   66% {
-    background-color: rgba(255, 255, 255, 0.0334210461);
+    background-color: rgba(255, 255, 255, 0);
   }
   67% {
-    background-color: rgba(255, 255, 255, 0.870783681);
+    background-color: rgba(255, 255, 255, 0);
   }
   68% {
-    background-color: rgba(255, 255, 255, 0.5499221525);
+    background-color: rgba(255, 255, 255, 0);
   }
   69% {
-    background-color: rgba(255, 255, 255, 0.0099688852);
+    background-color: rgba(255, 255, 255, 0);
   }
   70% {
-    background-color: rgba(255, 255, 255, 0.9605219738);
+    background-color: rgba(255, 255, 255, 0);
   }
   71% {
-    background-color: rgba(255, 255, 255, 0.8483219533);
+    background-color: rgba(255, 255, 255, 0);
   }
   72% {
-    background-color: rgba(255, 255, 255, 0.4853127327);
+    background-color: rgba(255, 255, 255, 0);
   }
   73% {
-    background-color: rgba(255, 255, 255, 0.0008628633);
+    background-color: rgba(255, 255, 255, 0);
   }
   74% {
-    background-color: rgba(255, 255, 255, 0.996551525);
+    background-color: rgba(255, 255, 255, 0);
   }
   75% {
-    background-color: rgba(255, 255, 255, 0.9862536678);
+    background-color: rgba(255, 255, 255, 0);
   }
   76% {
-    background-color: rgba(255, 255, 255, 0.9457705179);
+    background-color: rgba(255, 255, 255, 0);
   }
   77% {
-    background-color: rgba(255, 255, 255, 0.7948454186);
+    background-color: rgba(255, 255, 255, 0);
   }
   78% {
-    background-color: rgba(255, 255, 255, 0.3477352834);
+    background-color: rgba(255, 255, 255, 0);
   }
   79% {
-    background-color: rgba(255, 255, 255, 0.0927381756);
+    background-color: rgba(255, 255, 255, 0);
   }
   80% {
-    background-color: rgba(255, 255, 255, 0.6634487744);
+    background-color: rgba(255, 255, 255, 0);
   }
   81% {
-    background-color: rgba(255, 255, 255, 0.1068620073);
+    background-color: rgba(255, 255, 255, 0);
   }
   82% {
-    background-color: rgba(255, 255, 255, 0.6182299251);
+    background-color: rgba(255, 255, 255, 0);
   }
   83% {
-    background-color: rgba(255, 255, 255, 0.0559132607);
+    background-color: rgba(255, 255, 255, 0);
   }
   84% {
-    background-color: rgba(255, 255, 255, 0.788852128);
+    background-color: rgba(255, 255, 255, 0);
   }
   85% {
-    background-color: rgba(255, 255, 255, 0.3337422074);
+    background-color: rgba(255, 255, 255, 0);
   }
   86% {
-    background-color: rgba(255, 255, 255, 0.1105666144);
+    background-color: rgba(255, 255, 255, 0);
   }
   87% {
-    background-color: rgba(255, 255, 255, 0.6066334473);
+    background-color: rgba(255, 255, 255, 0);
   }
   88% {
-    background-color: rgba(255, 255, 255, 0.0454827683);
+    background-color: rgba(255, 255, 255, 0);
   }
   89% {
-    background-color: rgba(255, 255, 255, 0.8263436556);
+    background-color: rgba(255, 255, 255, 0);
   }
   90% {
-    background-color: rgba(255, 255, 255, 0.4260007263);
+    background-color: rgba(255, 255, 255, 0);
   }
   91% {
-    background-color: rgba(255, 255, 255, 0.02190357);
+    background-color: rgba(255, 255, 255, 0);
   }
   92% {
-    background-color: rgba(255, 255, 255, 0.9143047854);
+    background-color: rgba(255, 255, 255, 0);
   }
   93% {
-    background-color: rgba(255, 255, 255, 0.6865938209);
+    background-color: rgba(255, 255, 255, 0);
   }
   94% {
-    background-color: rgba(255, 255, 255, 0.1392690159);
+    background-color: rgba(255, 255, 255, 0);
   }
   95% {
-    background-color: rgba(255, 255, 255, 0.5205073714);
+    background-color: rgba(255, 255, 255, 0);
   }
   96% {
-    background-color: rgba(255, 255, 255, 0.0016822091);
+    background-color: rgba(255, 255, 255, 0);
   }
   97% {
-    background-color: rgba(255, 255, 255, 0.9932824828);
+    background-color: rgba(255, 255, 255, 0);
   }
   98% {
-    background-color: rgba(255, 255, 255, 0.9733104313);
+    background-color: rgba(255, 255, 255, 0);
   }
   99% {
-    background-color: rgba(255, 255, 255, 0.8960910575);
+    background-color: rgba(255, 255, 255, 0);
   }
 }
+.bg > svg {
+  width: 100%;
+  height: 100%;
+}
+
 h2 {
   font-size: 48px;
   font-weight: 900;
@@ -455,7 +460,7 @@ html {
 }
 
 .bg {
-  background: linear-gradient(#151515 9px, transparent 1px) right top/10px 10px padding-box repeat scroll, linear-gradient(90deg, #151515 9px, rgba(21, 21, 21, 0.5) 0) right top/10px 10px repeat scroll;
+  background: linear-gradient(#151515 18px, transparent 1px) right top/20px 20px padding-box repeat scroll, linear-gradient(90deg, #151515 18px, rgba(21, 21, 21, 0.5) 0) right top/20px 20px repeat scroll;
   animation: rand-colours-bw 100s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
 }
 
