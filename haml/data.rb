@@ -176,6 +176,6 @@ $contents.each do |content|
     content[:date] = "#{content[:dd]}.#{content[:mm]}.#{content[:date][:year]}"
     unless content[:code] == nil then
         content[:codename] = "#{$codes[content[:code]][:code]}-#{'%02d' % content[:index].to_s}"
-        content[:codename] = $codes[content[:code]][:expl]
+        content[:code_expl] = $codes[content[:code]][:expl]
     end
 end
