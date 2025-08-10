@@ -87,8 +87,9 @@ $head-thick-prod: 44800px;
     }
 }
 
-@mixin box($theme: $light-colour)
+@mixin box($theme: $dark-colour)
 {
+    background-color: color.change($color: $theme, $alpha: 25%);
     border-width: 0.25rem;
     border-style: solid;
     margin: 1rem 1rem 0rem 1rem;
@@ -202,7 +203,7 @@ nav
 
 .box:not(:has(.box))
 {
-    @include box($dark-colour);
+    @include box($light-colour);
     @include port;
     @include text;
 }
@@ -305,6 +306,8 @@ html
 {
     padding: 1em 0em 1em 0em;
     overflow: visible;
+    min-height: 100vh;
+    min-width: 100vw;
 }
 
 img.proj-ill
