@@ -4,7 +4,7 @@ $title = {
 }
 
 $me = {
-    name: "TymixNow",
+    name: "Tymix\u200BNow",
     title: "Programmer, Conlanger, and Game\u00A0Designer",
     img_link: "img/me",
     img_alt: "A picture of me",
