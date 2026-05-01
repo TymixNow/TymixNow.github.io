@@ -6,22 +6,24 @@
     %meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
     %title= $title[:projects]
     %link{rel:"stylesheet", href:"css/main.css"}
-    %link{rel:"stylesheet", href:"https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home,music_note,science"}
+    -# %link{rel:"stylesheet", href:"https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home,music_note,science"}
 %body
     %nav
+        %a{href:"index.html"}= $me[:name]
+        = ": "
         %ul
             - $nav.each do |nav|
                 %li
                     %a.material-symbols-rounded{href:"#{nav[:link]}.html"}= nav[:text]
-                    -# = "|" unless nav == $nav.last
-    .main-wrapper
-        .scroll-bg.bg
+                    = "|" unless nav == $nav.last
+    .z-wrapper
+        .foreground
             - $contents.each do |collection|
-                .collection-box.box
+                .feed.box
                     .codename 
                         = collection[:collection]
                     - collection[:music].each do |content|
-                        .post-box.box
+                        .post.box
                             %h2
                                 = content[:title]
                             %audio{controls: "controls"}
@@ -31,3 +33,10 @@
                                 .gray-out 
                                     = content[:comment] unless content[:comment].nil?
                                 %h3= content[:date]
+        .noise-bg.bg
+            .purpl-bg
+            .black-bg
+        .grad-bg.bg
+            .purpl-bg
+            .black-bg
+        .scroll-bg.bg

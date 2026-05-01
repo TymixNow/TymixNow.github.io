@@ -1,329 +1,235 @@
-@use 'sass:list';
 @use 'sass:color';
 @use 'sass:math';
-@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 
-@function chaos($reps: 1,$start: 0.1)
-{
-    $chaos: $start;
-    @for $i from 1 through $reps
-    {
-        $chaos: $chaos * (1 - $chaos) * 4;
-    }
-    @return $chaos;
-}
 
-@function getchaos($num: 1, $start: 0.1)
-{
-    $chaos: ();
-    @for $i from 1 through $num
-    {
-        $chaos: list.append($chaos, chaos($i, $start));
-    }
-    @return $chaos;
-}
-
-@function getrands($num: 1, $limit: 255)
-{
-    $rands: ();
-    @for $i from 1 through $num
-    {
-        $rands: list.append($rands, math.random($limit));
-    }
-    @return $rands;
-}
-
-$rands: getrands(99,null);
-$chaos: getchaos(99);
-
-@keyframes rand-colours-bw
-{
-    @for $i from 1 through 99
-    {
-        #{$i%100%}
-        {
-            background-color: rgba(#ffffff,1 - 1 /*- list.nth( $chaos, $i)*/);
-        }
-    }
-}
-
-@function background-grid($thickness: 1px, $hole-size, $grid-colour: #000000, $hole-colour: #00000000)
-{
-    @return (linear-gradient($grid-colour $thickness, transparent 1px) right top/ $hole-size $hole-size padding-box repeat scroll, linear-gradient(90deg, $grid-colour $thickness, $hole-colour 0) right top/ $hole-size $hole-size repeat scroll);
-}
+$pink: #c00040;
+$purple: #c055ff;
+$blue: #000080;
+$white: #c0c0c0;
+$gray: #a0a0a0;
+$link: #0000c0;
 
 $fonts: 'Kode Mono', 'Courier New', Courier, monospace;
-$colours: #151515 #4b4b4b #808080 #a0a0a0 #b0b0b0 #eaeaea #00ffff #0000c0;
-$grayout: 25%;
-$bg-colour: list.nth($colours,1);
-$dark-colour: list.nth($colours,2);
-$light-colour: list.nth($colours,3);
-$highlight-colour: list.nth($colours,6);
-$gray-out-colour: list.nth($colours,3);
-$text-colour: list.nth($colours,4);
-$link-colour: list.nth($colours,7);
-$nav-colour: list.nth($colours,8);
-$text-thick-mult: 25;
 $head-thick-prod: 44800px;
 
-@mixin text($size: 16px)
+@mixin box()
 {
-    font-size: $size;
-    font-weight: min(math.div($text-thick-mult * $size, 1px), 900);
-}
-
-@mixin header($size: 64px, $colour: $highlight-colour, $opacity: 100%, $disable-opacity: false)
-{
-    font-size: $size;
-    font-weight: min(math.div($head-thick-prod, $size), 900);
-    @if not $disable-opacity
-    {
-        $perc: min(math.div((100% - $grayout) * 64px , $size * 100%), 1);
-        color: rgba($colour, $perc * $opacity);
-    }
-    @if $disable-opacity
-    {
-        color: $colour;
-    }
-}
-
-@mixin box($theme: $dark-colour)
-{
-    background-color: color.change($color: $theme, $alpha: 25%);
+    background-color: color.change($color: $pink, $alpha: 25%);
     border-width: 0.25rem;
     border-style: solid;
     margin: 1rem 1rem 0rem 1rem;
     padding: 1rem 1rem 1rem 1rem;
-    border-color: $theme;
     box-sizing: border-box;
     word-break: normal;
     overflow-wrap: anywhere;
     overflow-x: visible;
 }
-
-@mixin port($percentage: 90)
+@mixin header-base($size: 64px)
+{
+    font-size: $size;
+    font-weight: min(math.div($head-thick-prod, $size), 900);
+}
+@mixin header($size: 64px)
+{
+    @include header-base($size);
+}
+@mixin retro($percentage: 90)
 {
     max-width: calc($percentage*1vmin - 2rem);
     margin-inline: auto;
 }
 
-@mixin fit()
+a
 {
-    min-width: 100%;
-    width: auto;
-    height: auto;
-    z-index: 0;
+    color: $link;
+    text-decoration: none;
+    transition: 500ms cubic-bezier(0.19, 1, 0.22, 1) color;
+    //check: transition: 500ms cubic-bezier(0.6, 0.04, 0.98, 0.335) color;
+}
+a:hover
+{
+    color: $white;
+}
+
+html
+{
+    body
+    {
+        nav
+        {
+            @include header(48px);
+            ul
+            {
+                li
+                {
+                    display: inline;
+                }
+                display: inline;
+                //margin: 0 calc(50vw - 45vmin + 1rem) 0 calc(50vw - 45vmin + 1rem);
+                padding: 0;
+                list-style-type: none;
+                color: $gray;
+
+            }
+            width: 100%;
+            display: block;
+            position: sticky;
+            z-index: 1;
+            top: 0;
+            background-color: $pink;
+            border-color: $purple;
+            border-style: none none solid none;
+            border-width: 0.25rem;
+        }
+        .z-wrapper
+        {
+            .foreground
+            {
+                .feed
+                {
+                    .codename
+                    {
+                        @include header();
+                        display: inline;
+                    }
+                }
+                .post
+                {
+                    .codename
+                    {
+                        @include header();
+                        display: inline;
+                    }
+                    .fullname
+                    {
+                        //@extend .gray-out;
+                        @include header(32px);
+                        color: $gray;
+                        display: inline;
+                    }
+                    .img-box
+                    {
+                        width: fit-content;
+                        .proj-ill
+                        {
+                            max-width: 100%;
+                        }
+                    }
+                    /*.date
+                    {
+
+                    }
+                    .desc
+                    {
+
+                    }*/
+                }
+                padding: 1em 0em 1em 0em;
+                //animation: rand-colours-bw 100s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+            }
+            .noise-bg > *
+            {
+                background: linear-gradient(to bottom in oklab, var(--start-clr), var(--mid-val), var(--end-clr));
+                mask: url("data:image/svg+xml,%3Csvg viewBox='0 0 1200 600' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.5' numOctaves='1' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")
+                ;
+            }
+            .grad-bg > *
+            {
+                background: linear-gradient(to bottom in oklab, var(--start-clr) var(--left-val), var(--end-clr) var(--right-val));
+            }
+            .purpl-bg
+            {
+                --start-clr: #{$purple};
+                --left-val: 0%;
+                --mid-val: 10%;
+                --right-val: 10%;
+                --end-clr: transparent;
+            }
+            .black-bg
+            {
+                --start-clr: transparent;
+                --left-val: 80%;
+                --mid-val: 80%;
+                --right-val: 100%;
+                --end-clr: black;
+            }
+            .scroll-bg
+            {
+                background-color: $blue;
+            }
+            .bg *
+            {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+            @for $i from 1 through 99
+            {
+                > .bg:nth-child(#{$i})
+                {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    z-index: 1-$i;
+                }
+                > .foreground:nth-child(#{$i})
+                {
+                    position: relative;
+                    margin-top: 0;
+                    margin-left: 0;
+                    margin-right: 0;
+                    margin-bottom: 0;
+                    z-index: 1-$i;
+                    background-color: transparent;
+                    overflow: visible;
+                    min-height: 100vh;
+                    min-width: 100vw;
+                }
+            }
+            position: relative;
+        }
+        //@include fit();
+        color: $white;
+        font-family: $fonts;
+        margin: 0;
+    }
+    //@include fit();
+    margin: 0;
+    margin: 0;
     padding: 0;
 }
 
-.bg > svg
+.gray-out
 {
-	width: 100%;
-	height: 100%;
+    opacity: 50%;
+    display: inline;
 }
 
-h2
+a
 {
-    @include header(48px);
-    margin-top: 0;
-    margin-bottom: 0;
-    a
-    {
-        text-decoration: none;
-        @include header(48px);
-        transition: 500ms cubic-bezier(0.6, 0.04, 0.98, 0.335) color;
-    }
-    a:hover
-    {
-        @include header(48px, $link-colour, 100%, true);
-    }
+    text-decoration: none;
 }
-
-a.material-symbols-rounded 
+a:hover
 {
-    font-size: 61px;
-    font-variation-settings:
-    'FILL' 1,
-    'wght' 400,
-    'GRAD' -25,
-    'opsz' 48
-}
-
-nav
-{
-    width: 100%;
-    display: block;
-    position: sticky;
-    top: 0;
-    background-color: $nav-colour;
-    & > ul 
-    {
-        display: inline;
-        margin: 0 calc(50vw - 45vmin + 1rem) 0 calc(50vw - 45vmin + 1rem);
-        padding: 0;
-        list-style-type: none;
-        @include header(48px, color.change($link-colour, $saturation: 0%, $alpha: 0.5, $space: hsl));
-        & > li
-        {
-            display: inline;
-            @include header(48px, color.change($link-colour, $saturation: 0%, $alpha: 0.5, $space: hsl));
-            & > a
-            {
-                @include header(48px, $link-colour);
-                text-decoration: none;
-            }
-        }
-            
-    }
-}
-
-.footer 
-{
-    box-sizing: border-box;
-    padding: 1em;
-    @include port;
-    > .box
-    {
-        display: inline;
-        margin-right: 1em;
-    }
-}
-
-.top-box
-{
-    margin: 0;
+    text-decoration: none;
 }
 
 .box
 {
-    @include box;
-    @include port;
-    @include text;
-}
-
-.box:not(:has(.box))
-{
-    @include box($light-colour);
-    @include port;
-    @include text;
-}
-
-.img-box
-{
-    width: auto;
-}
-.gray-out
-{
-    color: rgba($gray-out-colour,100% - $grayout);
-}
-
-div.title, .codename
-{
-    a
+    @include retro();
+    @include box();
+    border-color: $purple;
+    &:not(:has(.box))
     {
-        text-decoration: none;
-        @include header();
-        transition: 500ms cubic-bezier(0.19, 1, 0.22, 1) color;
+        @include box();
+        border-color: $pink;
     }
-    a:hover
+    &:not(.box .box)
     {
-        @include header(64px, $highlight-colour, 100%, true);
-    }
-}
-
-div.title
-{
-    @include text(32px);
-}
-
-.codename
-{
-    @include header();
-    display: inline;
-}
-
-body
-{
-    @include fit();
-    color: $text-colour;
-    font-family: $fonts;
-    margin: 0;
-}
-html
-{
-    @include fit();
-    margin: 0;
-    margin: 0;
-    padding: 0;
-
-}
-.bg
-{
-    background: background-grid(18px, 20px, $bg-colour, rgba($bg-colour,0.5));
-    animation: rand-colours-bw 100s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
-}
-
-.main-wrapper
-{
-    position: relative;
-    @include fit();
-    > *:not(:first-child)
-    {
-        @include fit();
-        position: absolute;
-        top: 0;
-        bottom: 0;
-    }
-
-    @for $i from 1 through 99
-    {
-        > div:nth-child(#{$i})
-        {
-            z-index: 1-$i;
-        }
-    }
-    &::after
-    {
-        content: "";
-        @include fit();
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        z-index: -100;
-        background-color: $bg-colour;
-    }
-}
-
-.code-expl
-{
-    @extend .gray-out;
-    @include header(32px, $gray-out-colour, 75%);
-    display: inline;
-}
-
-.scroll-bg
-{
-    padding: 1em 0em 1em 0em;
-    overflow: visible;
-    min-height: 100vh;
-    min-width: 100vw;
-}
-
-img.proj-ill
-{
-    @include port(30);
-}
-
-.grid-row
-{
-    display: inline;
-    height: 1%;
-    margin: 0;
-    .grid-item
-    {
-        display: inline-block;
-        width: 1%;
-        margin: 0;
+        margin: 1rem auto;
     }
 }

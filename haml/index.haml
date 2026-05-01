@@ -5,44 +5,56 @@
     %meta{charset: "UTF-8"}
     %meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
     %title= $title[:index]
-    %link{rel:"stylesheet", href:"https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home,music_note,science"}
+    -# %link{rel:"stylesheet", href:"https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home,music_note,science"}
     %link{rel:"stylesheet", href:"css/main.css"}
 %body
     %nav
+        %a{href:"index.html"}= $me[:name]
+        = ": "
         %ul
             - $nav.each do |nav|
                 %li
                     %a.material-symbols-rounded{href:"#{nav[:link]}.html"}= nav[:text]
-                    -# = "|" unless nav == $nav.last
-    .main-wrapper
-        .scroll-bg.bg
-            .top-box.box 
+                    = "|" unless nav == $nav.last
+    .z-wrapper
+        .foreground
+            .top-box.post.box
                 .codename
                     = $me[:name]
-                .code-expl= $me[:title]
+                .fullname
+                    = $me[:title]
+                    .gray-out
+                        = $me[:pronouns]
                 %br
                 .img-box.box
                     %img.proj-ill{src: "#{$me[:img_link]}.png", alt: "#{$me[:img_alt]}"}
-                .post-desc-box.box!= $me[:desc]
-            .box
+                .desc.box!= $me[:desc]
+            .feed.box
                 %h2= $me[:projects_top_desc]
                 - content = $contents[0]
-                .post-box.box
+                .post.box
                     .codename
                         %a{href:"#{content[:date_link]}.html"}
                             = content[:codename]
-                    .code-expl= content[:code_expl]
+                    .fullname= content[:code_expl]
                     %h1= content[:title]
                     .img-box.box
                         %img.proj-ill{src: "#{content[:date_link]}.png", alt: "#{content[:img_alt]}"}
                     .date
                         %h3= content[:date]
-                    .post-desc-box.box= content[:post_desc]
+                    .desc.box= content[:post_desc]
                 .box
                     %h2
                         %a{href:"projects.html"}
                             = $me[:projects_link_text]
+        .noise-bg.bg
+            .purpl-bg
+            .black-bg
         .grad-bg.bg
+            .purpl-bg
+            .black-bg
+        .scroll-bg.bg
+        -# .grad-bg.bg
             %svg
                 - require_relative 'gradient.rb'
                 %defs

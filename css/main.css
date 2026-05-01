@@ -1,829 +1,2138 @@
-@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
-@keyframes rand-colours-bw {
-  1% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  2% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  3% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  4% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  5% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  6% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  7% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  8% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  9% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  10% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  11% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  12% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  13% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  14% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  15% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  16% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  17% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  18% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  19% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  20% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  21% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  22% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  23% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  24% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  25% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  26% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  27% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  28% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  29% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  30% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  31% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  32% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  33% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  34% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  35% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  36% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  37% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  38% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  39% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  40% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  41% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  42% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  43% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  44% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  45% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  46% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  47% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  48% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  49% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  50% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  51% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  52% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  53% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  54% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  55% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  56% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  57% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  58% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  59% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  60% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  61% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  62% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  63% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  64% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  65% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  66% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  67% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  68% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  69% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  70% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  71% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  72% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  73% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  74% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  75% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  76% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  77% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  78% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  79% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  80% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  81% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  82% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  83% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  84% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  85% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  86% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  87% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  88% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  89% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  90% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  91% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  92% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  93% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  94% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  95% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  96% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  97% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  98% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  99% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-}
-.bg > svg {
-  width: 100%;
-  height: 100%;
-}
-
-h2 {
-  font-size: 48px;
-  font-weight: 900;
-  color: #eaeaea;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-h2 a {
+a {
+  color: #0000c0;
   text-decoration: none;
-  font-size: 48px;
-  font-weight: 900;
-  color: #eaeaea;
-  transition: 500ms cubic-bezier(0.6, 0.04, 0.98, 0.335) color;
-}
-h2 a:hover {
-  font-size: 48px;
-  font-weight: 900;
-  color: #00ffff;
+  transition: 500ms cubic-bezier(0.19, 1, 0.22, 1) color;
 }
 
-a.material-symbols-rounded {
-  font-size: 61px;
-  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" -25, "opsz" 48;
+a:hover {
+  color: #c0c0c0;
 }
 
-nav {
+html body nav {
+  font-size: 48px;
+  font-weight: 900;
+}
+html body nav ul li {
+  display: inline;
+}
+html body nav ul {
+  display: inline;
+  padding: 0;
+  list-style-type: none;
+  color: #a0a0a0;
+}
+html body nav {
   width: 100%;
   display: block;
   position: sticky;
+  z-index: 1;
   top: 0;
-  background-color: #0000c0;
-}
-nav > ul {
-  display: inline;
-  margin: 0 calc(50vw - 45vmin + 1rem) 0 calc(50vw - 45vmin + 1rem);
-  padding: 0;
-  list-style-type: none;
-  font-size: 48px;
-  font-weight: 900;
-  color: rgb(127.5, 127.5, 127.5);
-}
-nav > ul > li {
-  display: inline;
-  font-size: 48px;
-  font-weight: 900;
-  color: rgb(127.5, 127.5, 127.5);
-}
-nav > ul > li > a {
-  font-size: 48px;
-  font-weight: 900;
-  color: aqua;
-  text-decoration: none;
-}
-
-.footer {
-  box-sizing: border-box;
-  padding: 1em;
-  max-width: calc(90vmin - 2rem);
-  margin-inline: auto;
-}
-.footer > .box {
-  display: inline;
-  margin-right: 1em;
-}
-
-.top-box {
-  margin: 0;
-}
-
-.box {
-  background-color: rgba(75, 75, 75, 0.25);
+  background-color: #c00040;
+  border-color: #c055ff;
+  border-style: none none solid none;
   border-width: 0.25rem;
-  border-style: solid;
-  margin: 1rem 1rem 0rem 1rem;
-  padding: 1rem 1rem 1rem 1rem;
-  border-color: #4b4b4b;
-  box-sizing: border-box;
-  word-break: normal;
-  overflow-wrap: anywhere;
-  overflow-x: visible;
-  max-width: calc(90vmin - 2rem);
-  margin-inline: auto;
-  font-size: 16px;
-  font-weight: 400;
 }
-
-.box:not(:has(.box)) {
-  background-color: rgba(128, 128, 128, 0.25);
-  border-width: 0.25rem;
-  border-style: solid;
-  margin: 1rem 1rem 0rem 1rem;
-  padding: 1rem 1rem 1rem 1rem;
-  border-color: #808080;
-  box-sizing: border-box;
-  word-break: normal;
-  overflow-wrap: anywhere;
-  overflow-x: visible;
-  max-width: calc(90vmin - 2rem);
-  margin-inline: auto;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.img-box {
-  width: auto;
-}
-
-.gray-out, .code-expl {
-  color: rgba(128, 128, 128, 0.75);
-}
-
-div.title a, .codename a {
-  text-decoration: none;
+html body .z-wrapper .foreground .feed .codename {
   font-size: 64px;
   font-weight: 700;
-  color: rgba(234, 234, 234, 0.75);
-  transition: 500ms cubic-bezier(0.19, 1, 0.22, 1) color;
+  display: inline;
 }
-div.title a:hover, .codename a:hover {
+html body .z-wrapper .foreground .post .codename {
   font-size: 64px;
   font-weight: 700;
-  color: #eaeaea;
+  display: inline;
 }
-
-div.title {
+html body .z-wrapper .foreground .post .fullname {
   font-size: 32px;
-  font-weight: 800;
-}
-
-.codename {
-  font-size: 64px;
-  font-weight: 700;
-  color: rgba(234, 234, 234, 0.75);
+  font-weight: 900;
+  color: #a0a0a0;
   display: inline;
 }
+html body .z-wrapper .foreground .post .img-box {
+  width: fit-content;
+}
+html body .z-wrapper .foreground .post .img-box .proj-ill {
+  max-width: 100%;
+}
+html body .z-wrapper .foreground .post {
+  /*.date
+  {
 
-body {
-  min-width: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  padding: 0;
-  color: #a0a0a0;
-  font-family: "Kode Mono", "Courier New", Courier, monospace;
-  margin: 0;
-}
+  }
+  .desc
+  {
 
-html {
-  min-width: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  padding: 0;
-  margin: 0;
-  margin: 0;
-  padding: 0;
-}
-
-.bg {
-  background: linear-gradient(#151515 18px, transparent 1px) right top/20px 20px padding-box repeat scroll, linear-gradient(90deg, #151515 18px, rgba(21, 21, 21, 0.5) 0) right top/20px 20px repeat scroll;
-  animation: rand-colours-bw 100s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
-}
-
-.main-wrapper {
-  position: relative;
-  min-width: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  padding: 0;
-}
-.main-wrapper > *:not(:first-child) {
-  min-width: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  padding: 0;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-}
-.main-wrapper > div:nth-child(1) {
-  z-index: 0;
-}
-.main-wrapper > div:nth-child(2) {
-  z-index: -1;
-}
-.main-wrapper > div:nth-child(3) {
-  z-index: -2;
-}
-.main-wrapper > div:nth-child(4) {
-  z-index: -3;
-}
-.main-wrapper > div:nth-child(5) {
-  z-index: -4;
-}
-.main-wrapper > div:nth-child(6) {
-  z-index: -5;
-}
-.main-wrapper > div:nth-child(7) {
-  z-index: -6;
-}
-.main-wrapper > div:nth-child(8) {
-  z-index: -7;
-}
-.main-wrapper > div:nth-child(9) {
-  z-index: -8;
-}
-.main-wrapper > div:nth-child(10) {
-  z-index: -9;
-}
-.main-wrapper > div:nth-child(11) {
-  z-index: -10;
-}
-.main-wrapper > div:nth-child(12) {
-  z-index: -11;
-}
-.main-wrapper > div:nth-child(13) {
-  z-index: -12;
-}
-.main-wrapper > div:nth-child(14) {
-  z-index: -13;
-}
-.main-wrapper > div:nth-child(15) {
-  z-index: -14;
-}
-.main-wrapper > div:nth-child(16) {
-  z-index: -15;
-}
-.main-wrapper > div:nth-child(17) {
-  z-index: -16;
-}
-.main-wrapper > div:nth-child(18) {
-  z-index: -17;
-}
-.main-wrapper > div:nth-child(19) {
-  z-index: -18;
-}
-.main-wrapper > div:nth-child(20) {
-  z-index: -19;
-}
-.main-wrapper > div:nth-child(21) {
-  z-index: -20;
-}
-.main-wrapper > div:nth-child(22) {
-  z-index: -21;
-}
-.main-wrapper > div:nth-child(23) {
-  z-index: -22;
-}
-.main-wrapper > div:nth-child(24) {
-  z-index: -23;
-}
-.main-wrapper > div:nth-child(25) {
-  z-index: -24;
-}
-.main-wrapper > div:nth-child(26) {
-  z-index: -25;
-}
-.main-wrapper > div:nth-child(27) {
-  z-index: -26;
-}
-.main-wrapper > div:nth-child(28) {
-  z-index: -27;
-}
-.main-wrapper > div:nth-child(29) {
-  z-index: -28;
-}
-.main-wrapper > div:nth-child(30) {
-  z-index: -29;
-}
-.main-wrapper > div:nth-child(31) {
-  z-index: -30;
-}
-.main-wrapper > div:nth-child(32) {
-  z-index: -31;
-}
-.main-wrapper > div:nth-child(33) {
-  z-index: -32;
-}
-.main-wrapper > div:nth-child(34) {
-  z-index: -33;
-}
-.main-wrapper > div:nth-child(35) {
-  z-index: -34;
-}
-.main-wrapper > div:nth-child(36) {
-  z-index: -35;
-}
-.main-wrapper > div:nth-child(37) {
-  z-index: -36;
-}
-.main-wrapper > div:nth-child(38) {
-  z-index: -37;
-}
-.main-wrapper > div:nth-child(39) {
-  z-index: -38;
-}
-.main-wrapper > div:nth-child(40) {
-  z-index: -39;
-}
-.main-wrapper > div:nth-child(41) {
-  z-index: -40;
-}
-.main-wrapper > div:nth-child(42) {
-  z-index: -41;
-}
-.main-wrapper > div:nth-child(43) {
-  z-index: -42;
-}
-.main-wrapper > div:nth-child(44) {
-  z-index: -43;
-}
-.main-wrapper > div:nth-child(45) {
-  z-index: -44;
-}
-.main-wrapper > div:nth-child(46) {
-  z-index: -45;
-}
-.main-wrapper > div:nth-child(47) {
-  z-index: -46;
-}
-.main-wrapper > div:nth-child(48) {
-  z-index: -47;
-}
-.main-wrapper > div:nth-child(49) {
-  z-index: -48;
-}
-.main-wrapper > div:nth-child(50) {
-  z-index: -49;
-}
-.main-wrapper > div:nth-child(51) {
-  z-index: -50;
-}
-.main-wrapper > div:nth-child(52) {
-  z-index: -51;
-}
-.main-wrapper > div:nth-child(53) {
-  z-index: -52;
-}
-.main-wrapper > div:nth-child(54) {
-  z-index: -53;
-}
-.main-wrapper > div:nth-child(55) {
-  z-index: -54;
-}
-.main-wrapper > div:nth-child(56) {
-  z-index: -55;
-}
-.main-wrapper > div:nth-child(57) {
-  z-index: -56;
-}
-.main-wrapper > div:nth-child(58) {
-  z-index: -57;
-}
-.main-wrapper > div:nth-child(59) {
-  z-index: -58;
-}
-.main-wrapper > div:nth-child(60) {
-  z-index: -59;
-}
-.main-wrapper > div:nth-child(61) {
-  z-index: -60;
-}
-.main-wrapper > div:nth-child(62) {
-  z-index: -61;
-}
-.main-wrapper > div:nth-child(63) {
-  z-index: -62;
-}
-.main-wrapper > div:nth-child(64) {
-  z-index: -63;
-}
-.main-wrapper > div:nth-child(65) {
-  z-index: -64;
-}
-.main-wrapper > div:nth-child(66) {
-  z-index: -65;
-}
-.main-wrapper > div:nth-child(67) {
-  z-index: -66;
-}
-.main-wrapper > div:nth-child(68) {
-  z-index: -67;
-}
-.main-wrapper > div:nth-child(69) {
-  z-index: -68;
-}
-.main-wrapper > div:nth-child(70) {
-  z-index: -69;
-}
-.main-wrapper > div:nth-child(71) {
-  z-index: -70;
-}
-.main-wrapper > div:nth-child(72) {
-  z-index: -71;
-}
-.main-wrapper > div:nth-child(73) {
-  z-index: -72;
-}
-.main-wrapper > div:nth-child(74) {
-  z-index: -73;
-}
-.main-wrapper > div:nth-child(75) {
-  z-index: -74;
-}
-.main-wrapper > div:nth-child(76) {
-  z-index: -75;
-}
-.main-wrapper > div:nth-child(77) {
-  z-index: -76;
-}
-.main-wrapper > div:nth-child(78) {
-  z-index: -77;
-}
-.main-wrapper > div:nth-child(79) {
-  z-index: -78;
-}
-.main-wrapper > div:nth-child(80) {
-  z-index: -79;
-}
-.main-wrapper > div:nth-child(81) {
-  z-index: -80;
-}
-.main-wrapper > div:nth-child(82) {
-  z-index: -81;
-}
-.main-wrapper > div:nth-child(83) {
-  z-index: -82;
-}
-.main-wrapper > div:nth-child(84) {
-  z-index: -83;
-}
-.main-wrapper > div:nth-child(85) {
-  z-index: -84;
-}
-.main-wrapper > div:nth-child(86) {
-  z-index: -85;
-}
-.main-wrapper > div:nth-child(87) {
-  z-index: -86;
-}
-.main-wrapper > div:nth-child(88) {
-  z-index: -87;
-}
-.main-wrapper > div:nth-child(89) {
-  z-index: -88;
-}
-.main-wrapper > div:nth-child(90) {
-  z-index: -89;
-}
-.main-wrapper > div:nth-child(91) {
-  z-index: -90;
-}
-.main-wrapper > div:nth-child(92) {
-  z-index: -91;
-}
-.main-wrapper > div:nth-child(93) {
-  z-index: -92;
-}
-.main-wrapper > div:nth-child(94) {
-  z-index: -93;
-}
-.main-wrapper > div:nth-child(95) {
-  z-index: -94;
-}
-.main-wrapper > div:nth-child(96) {
-  z-index: -95;
-}
-.main-wrapper > div:nth-child(97) {
-  z-index: -96;
-}
-.main-wrapper > div:nth-child(98) {
-  z-index: -97;
-}
-.main-wrapper > div:nth-child(99) {
-  z-index: -98;
-}
-.main-wrapper::after {
-  content: "";
-  min-width: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  padding: 0;
+  }*/
+}
+html body .z-wrapper .foreground {
+  padding: 1em 0em 1em 0em;
+}
+html body .z-wrapper .noise-bg > * {
+  background: linear-gradient(to bottom in oklab, var(--start-clr), var(--mid-val), var(--end-clr));
+  mask: url("data:image/svg+xml,%3Csvg viewBox='0 0 1200 600' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.5' numOctaves='1' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+html body .z-wrapper .grad-bg > * {
+  background: linear-gradient(to bottom in oklab, var(--start-clr) var(--left-val), var(--end-clr) var(--right-val));
+}
+html body .z-wrapper .purpl-bg {
+  --start-clr: #c055ff;
+  --left-val: 0%;
+  --mid-val: 10%;
+  --right-val: 10%;
+  --end-clr: transparent;
+}
+html body .z-wrapper .black-bg {
+  --start-clr: transparent;
+  --left-val: 80%;
+  --mid-val: 80%;
+  --right-val: 100%;
+  --end-clr: black;
+}
+html body .z-wrapper .scroll-bg {
+  background-color: #000080;
+}
+html body .z-wrapper .bg * {
   position: absolute;
   top: 0;
   left: 0;
+  right: 0;
   bottom: 0;
-  z-index: -100;
-  background-color: #151515;
 }
-
-.code-expl {
-  font-size: 32px;
-  font-weight: 900;
-  color: rgba(128, 128, 128, 0.75);
-  display: inline;
+html body .z-wrapper > .bg:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
 }
-
-.scroll-bg {
-  padding: 1em 0em 1em 0em;
+html body .z-wrapper > .foreground:nth-child(1) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: 0;
+  background-color: transparent;
   overflow: visible;
   min-height: 100vh;
   min-width: 100vw;
 }
-
-img.proj-ill {
-  max-width: calc(30vmin - 2rem);
-  margin-inline: auto;
+html body .z-wrapper > .bg:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+html body .z-wrapper > .foreground:nth-child(2) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -1;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(3) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -2;
+}
+html body .z-wrapper > .foreground:nth-child(3) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -2;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(4) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -3;
+}
+html body .z-wrapper > .foreground:nth-child(4) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -3;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(5) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -4;
+}
+html body .z-wrapper > .foreground:nth-child(5) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -4;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(6) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -5;
+}
+html body .z-wrapper > .foreground:nth-child(6) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -5;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(7) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -6;
+}
+html body .z-wrapper > .foreground:nth-child(7) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -6;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(8) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -7;
+}
+html body .z-wrapper > .foreground:nth-child(8) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -7;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(9) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -8;
+}
+html body .z-wrapper > .foreground:nth-child(9) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -8;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(10) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -9;
+}
+html body .z-wrapper > .foreground:nth-child(10) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -9;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(11) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -10;
+}
+html body .z-wrapper > .foreground:nth-child(11) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -10;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(12) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -11;
+}
+html body .z-wrapper > .foreground:nth-child(12) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -11;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(13) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -12;
+}
+html body .z-wrapper > .foreground:nth-child(13) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -12;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(14) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -13;
+}
+html body .z-wrapper > .foreground:nth-child(14) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -13;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(15) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -14;
+}
+html body .z-wrapper > .foreground:nth-child(15) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -14;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(16) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -15;
+}
+html body .z-wrapper > .foreground:nth-child(16) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -15;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(17) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -16;
+}
+html body .z-wrapper > .foreground:nth-child(17) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -16;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(18) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -17;
+}
+html body .z-wrapper > .foreground:nth-child(18) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -17;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(19) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -18;
+}
+html body .z-wrapper > .foreground:nth-child(19) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -18;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(20) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -19;
+}
+html body .z-wrapper > .foreground:nth-child(20) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -19;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(21) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -20;
+}
+html body .z-wrapper > .foreground:nth-child(21) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -20;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(22) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -21;
+}
+html body .z-wrapper > .foreground:nth-child(22) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -21;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(23) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -22;
+}
+html body .z-wrapper > .foreground:nth-child(23) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -22;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(24) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -23;
+}
+html body .z-wrapper > .foreground:nth-child(24) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -23;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(25) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -24;
+}
+html body .z-wrapper > .foreground:nth-child(25) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -24;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(26) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -25;
+}
+html body .z-wrapper > .foreground:nth-child(26) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -25;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(27) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -26;
+}
+html body .z-wrapper > .foreground:nth-child(27) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -26;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(28) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -27;
+}
+html body .z-wrapper > .foreground:nth-child(28) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -27;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(29) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -28;
+}
+html body .z-wrapper > .foreground:nth-child(29) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -28;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(30) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -29;
+}
+html body .z-wrapper > .foreground:nth-child(30) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -29;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(31) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -30;
+}
+html body .z-wrapper > .foreground:nth-child(31) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -30;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(32) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -31;
+}
+html body .z-wrapper > .foreground:nth-child(32) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -31;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(33) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -32;
+}
+html body .z-wrapper > .foreground:nth-child(33) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -32;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(34) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -33;
+}
+html body .z-wrapper > .foreground:nth-child(34) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -33;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(35) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -34;
+}
+html body .z-wrapper > .foreground:nth-child(35) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -34;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(36) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -35;
+}
+html body .z-wrapper > .foreground:nth-child(36) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -35;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(37) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -36;
+}
+html body .z-wrapper > .foreground:nth-child(37) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -36;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(38) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -37;
+}
+html body .z-wrapper > .foreground:nth-child(38) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -37;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(39) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -38;
+}
+html body .z-wrapper > .foreground:nth-child(39) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -38;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(40) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -39;
+}
+html body .z-wrapper > .foreground:nth-child(40) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -39;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(41) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -40;
+}
+html body .z-wrapper > .foreground:nth-child(41) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -40;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(42) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -41;
+}
+html body .z-wrapper > .foreground:nth-child(42) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -41;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(43) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -42;
+}
+html body .z-wrapper > .foreground:nth-child(43) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -42;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(44) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -43;
+}
+html body .z-wrapper > .foreground:nth-child(44) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -43;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(45) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -44;
+}
+html body .z-wrapper > .foreground:nth-child(45) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -44;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(46) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -45;
+}
+html body .z-wrapper > .foreground:nth-child(46) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -45;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(47) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -46;
+}
+html body .z-wrapper > .foreground:nth-child(47) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -46;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(48) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -47;
+}
+html body .z-wrapper > .foreground:nth-child(48) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -47;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(49) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -48;
+}
+html body .z-wrapper > .foreground:nth-child(49) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -48;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(50) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -49;
+}
+html body .z-wrapper > .foreground:nth-child(50) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -49;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(51) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -50;
+}
+html body .z-wrapper > .foreground:nth-child(51) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -50;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(52) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -51;
+}
+html body .z-wrapper > .foreground:nth-child(52) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -51;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(53) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -52;
+}
+html body .z-wrapper > .foreground:nth-child(53) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -52;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(54) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -53;
+}
+html body .z-wrapper > .foreground:nth-child(54) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -53;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(55) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -54;
+}
+html body .z-wrapper > .foreground:nth-child(55) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -54;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(56) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -55;
+}
+html body .z-wrapper > .foreground:nth-child(56) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -55;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(57) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -56;
+}
+html body .z-wrapper > .foreground:nth-child(57) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -56;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(58) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -57;
+}
+html body .z-wrapper > .foreground:nth-child(58) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -57;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(59) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -58;
+}
+html body .z-wrapper > .foreground:nth-child(59) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -58;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(60) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -59;
+}
+html body .z-wrapper > .foreground:nth-child(60) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -59;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(61) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -60;
+}
+html body .z-wrapper > .foreground:nth-child(61) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -60;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(62) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -61;
+}
+html body .z-wrapper > .foreground:nth-child(62) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -61;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(63) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -62;
+}
+html body .z-wrapper > .foreground:nth-child(63) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -62;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(64) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -63;
+}
+html body .z-wrapper > .foreground:nth-child(64) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -63;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(65) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -64;
+}
+html body .z-wrapper > .foreground:nth-child(65) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -64;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(66) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -65;
+}
+html body .z-wrapper > .foreground:nth-child(66) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -65;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(67) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -66;
+}
+html body .z-wrapper > .foreground:nth-child(67) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -66;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(68) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -67;
+}
+html body .z-wrapper > .foreground:nth-child(68) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -67;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(69) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -68;
+}
+html body .z-wrapper > .foreground:nth-child(69) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -68;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(70) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -69;
+}
+html body .z-wrapper > .foreground:nth-child(70) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -69;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(71) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -70;
+}
+html body .z-wrapper > .foreground:nth-child(71) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -70;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(72) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -71;
+}
+html body .z-wrapper > .foreground:nth-child(72) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -71;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(73) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -72;
+}
+html body .z-wrapper > .foreground:nth-child(73) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -72;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(74) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -73;
+}
+html body .z-wrapper > .foreground:nth-child(74) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -73;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(75) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -74;
+}
+html body .z-wrapper > .foreground:nth-child(75) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -74;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(76) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -75;
+}
+html body .z-wrapper > .foreground:nth-child(76) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -75;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(77) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -76;
+}
+html body .z-wrapper > .foreground:nth-child(77) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -76;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(78) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -77;
+}
+html body .z-wrapper > .foreground:nth-child(78) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -77;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(79) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -78;
+}
+html body .z-wrapper > .foreground:nth-child(79) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -78;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(80) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -79;
+}
+html body .z-wrapper > .foreground:nth-child(80) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -79;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(81) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -80;
+}
+html body .z-wrapper > .foreground:nth-child(81) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -80;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(82) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -81;
+}
+html body .z-wrapper > .foreground:nth-child(82) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -81;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(83) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -82;
+}
+html body .z-wrapper > .foreground:nth-child(83) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -82;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(84) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -83;
+}
+html body .z-wrapper > .foreground:nth-child(84) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -83;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(85) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -84;
+}
+html body .z-wrapper > .foreground:nth-child(85) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -84;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(86) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -85;
+}
+html body .z-wrapper > .foreground:nth-child(86) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -85;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(87) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -86;
+}
+html body .z-wrapper > .foreground:nth-child(87) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -86;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(88) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -87;
+}
+html body .z-wrapper > .foreground:nth-child(88) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -87;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(89) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -88;
+}
+html body .z-wrapper > .foreground:nth-child(89) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -88;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(90) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -89;
+}
+html body .z-wrapper > .foreground:nth-child(90) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -89;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(91) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -90;
+}
+html body .z-wrapper > .foreground:nth-child(91) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -90;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(92) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -91;
+}
+html body .z-wrapper > .foreground:nth-child(92) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -91;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(93) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -92;
+}
+html body .z-wrapper > .foreground:nth-child(93) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -92;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(94) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -93;
+}
+html body .z-wrapper > .foreground:nth-child(94) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -93;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(95) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -94;
+}
+html body .z-wrapper > .foreground:nth-child(95) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -94;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(96) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -95;
+}
+html body .z-wrapper > .foreground:nth-child(96) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -95;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(97) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -96;
+}
+html body .z-wrapper > .foreground:nth-child(97) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -96;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(98) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -97;
+}
+html body .z-wrapper > .foreground:nth-child(98) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -97;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper > .bg:nth-child(99) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -98;
+}
+html body .z-wrapper > .foreground:nth-child(99) {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: -98;
+  background-color: transparent;
+  overflow: visible;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+html body .z-wrapper {
+  position: relative;
+}
+html body {
+  color: #c0c0c0;
+  font-family: "Kode Mono", "Courier New", Courier, monospace;
+  margin: 0;
+}
+html {
+  margin: 0;
+  margin: 0;
+  padding: 0;
 }
 
-.grid-row {
+.gray-out {
+  opacity: 50%;
   display: inline;
-  height: 1%;
-  margin: 0;
 }
-.grid-row .grid-item {
-  display: inline-block;
-  width: 1%;
-  margin: 0;
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.box {
+  max-width: calc(90vmin - 2rem);
+  margin-inline: auto;
+  background-color: rgba(192, 0, 64, 0.25);
+  border-width: 0.25rem;
+  border-style: solid;
+  margin: 1rem 1rem 0rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+  box-sizing: border-box;
+  word-break: normal;
+  overflow-wrap: anywhere;
+  overflow-x: visible;
+  border-color: #c055ff;
+}
+.box:not(:has(.box)) {
+  background-color: rgba(192, 0, 64, 0.25);
+  border-width: 0.25rem;
+  border-style: solid;
+  margin: 1rem 1rem 0rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+  box-sizing: border-box;
+  word-break: normal;
+  overflow-wrap: anywhere;
+  overflow-x: visible;
+  border-color: #c00040;
+}
+.box:not(.box .box) {
+  margin: 1rem auto;
 }
 
 /*# sourceMappingURL=main.css.map */

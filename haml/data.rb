@@ -5,26 +5,27 @@ $title = {
 
 $me = {
     name: "Tymix\u200BNow",
-    title: "Programmer, Conlanger, and Game\u00A0Designer",
+    pronouns: "(they/he/it (i guess???))",
+    title: "chaos blorbo",
     img_link: "img/me",
     img_alt: "A picture of me",
-    desc: "Music theorist, mathematician<br>Bit of a linguist, theoretician<br>Chemist, conlanger<br>Worldbuilder, programmer<br>In no particular order.<br>INTP<br>Ti-Ne-Si-Fe<br>AuDHD<br>Mat-chem",
+    desc: "<ul><li>hobby:<ul><li>science:<ul><li>maths</li><li>chemistry</li><li>programming</li></ul></li><li>art:<ul><li>music</li><li>conlanging</li><li>worldbuilding</li><li>drawing</li></ul></li></ul></li><li>me:<ul><li>AuDHD</li><li>Bi</li><li>Furry</li></ul>",
     projects_link_text: "More Projects\u200B...",
     projects_top_desc: "Newest project:",
 }
 
 $nav = [
+    # {
+    #     text: "home",
+    #     link: "/index",
+    # },
     {
-        text: "home",
-        link: "/index",
+        text: "projects",
+        link: "projects",
     },
     {
-        text: "science",
-        link: "/projects",
-    },
-    {
-        text: "music_note",
-        link: "/music",
+        text: "music",
+        link: "music",
     },
 ]
 
@@ -38,6 +39,19 @@ $codes = {
 }
 
 $contents = [
+    {
+        code: :gen,
+        index: 3,
+        title: "I'm back (again (again))",
+        img_alt: "new pfp: cute floofus",
+        date:
+        {
+            year: 2026,
+            month: 5,
+            day: 1
+        },
+        post_desc: "I'm so good at forgetting :3c"
+    },
     {
         code: :gen,
         index: 2,
