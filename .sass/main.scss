@@ -7,14 +7,20 @@ $purple: #c055ff;
 $blue: #000080;
 $white: #c0c0c0;
 $gray: #a0a0a0;
-$link: #0000c0;
+
+$yellow: #e0c020;
+$hwite: #c0c0c0;
+$ourple: #8020e0;
+$blk: #202020;
+$grayed: #c0c0c0c0;
+$link: $yellow;//#0000c0;
 
 $fonts: 'Kode Mono', 'Courier New', Courier, monospace;
 $head-thick-prod: 44800px;
 
 @mixin box()
 {
-    background-color: color.change($color: $pink, $alpha: 25%);
+    background-color: color.change($color: $blk, $alpha: 50%);
     border-width: 0.25rem;
     border-style: solid;
     margin: 1rem 1rem 0rem 1rem;
@@ -48,7 +54,7 @@ a
 }
 a:hover
 {
-    color: $white;
+    color: $hwite;
 }
 
 html
@@ -68,7 +74,7 @@ html
                 //margin: 0 calc(50vw - 45vmin + 1rem) 0 calc(50vw - 45vmin + 1rem);
                 padding: 0;
                 list-style-type: none;
-                color: $gray;
+                color: $grayed;
 
             }
             width: 100%;
@@ -76,8 +82,8 @@ html
             position: sticky;
             z-index: 1;
             top: 0;
-            background-color: $pink;
-            border-color: $purple;
+            background-color: $ourple;
+            border-color: $blk;
             border-style: none none solid none;
             border-width: 0.25rem;
         }
@@ -104,7 +110,7 @@ html
                     {
                         //@extend .gray-out;
                         @include header(32px);
-                        color: $gray;
+                        color: $grayed;
                         display: inline;
                     }
                     .img-box
@@ -137,19 +143,27 @@ html
             {
                 background: linear-gradient(to bottom in oklab, var(--start-clr) var(--left-val), var(--end-clr) var(--right-val));
             }
-            .purpl-bg
+            .yellow-bg
             {
-                --start-clr: #{$purple};
+                --start-clr: #{$yellow};
                 --left-val: 0%;
-                --mid-val: 10%;
-                --right-val: 10%;
+                --mid-val: 25%;
+                --right-val: 25%;
                 --end-clr: transparent;
+            }
+            .white-bg
+            {
+                --start-clr: #{$hwite};
+                --left-val: 0%;
+                --mid-val: 50%;
+                --right-val: 100%;
+                --end-clr: #{$ourple};
             }
             .black-bg
             {
                 --start-clr: transparent;
-                --left-val: 80%;
-                --mid-val: 80%;
+                --left-val: 75%;
+                --mid-val: 75%;
                 --right-val: 100%;
                 --end-clr: black;
             }
@@ -193,7 +207,7 @@ html
             position: relative;
         }
         //@include fit();
-        color: $white;
+        color: $hwite;
         font-family: $fonts;
         margin: 0;
     }
@@ -222,11 +236,11 @@ a:hover
 {
     @include retro();
     @include box();
-    border-color: $purple;
+    border-color: $ourple;
     &:not(:has(.box))
     {
         @include box();
-        border-color: $pink;
+        border-color: $blk;
     }
     &:not(.box .box)
     {

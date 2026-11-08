@@ -1,11 +1,15 @@
-$title = {
+=begin
+data for whole website apart from music
+=end
+
+$title = { # page tab titles
     "index": "TymixNow\'s Main Page",
     "projects": "TymixNow\'s projects"
 }
 
-$me = {
+$me = { # bio
     name: "Tymix\u200BNow",
-    pronouns: "(they/he/it (i guess???))",
+    pronouns: "(they/them (for now...))",
     title: "chaos blorbo",
     img_link: "img/me",
     img_alt: "A picture of me",
@@ -14,7 +18,7 @@ $me = {
     projects_top_desc: "Newest project:",
 }
 
-$nav = [
+$nav = [ # navigation bar
     # {
     #     text: "home",
     #     link: "/index",
@@ -29,7 +33,7 @@ $nav = [
     },
 ]
 
-$codes = {
+$codes = { # projects by code
     gen: {code: "GEN", expl: "GENeral"},
     web: {code: "CEW", expl: "Current Endeavour Website"},
     chip: {code: "SCH", expl: "Sound CHip"},
@@ -38,7 +42,20 @@ $codes = {
     game: {code: "HCG", expl: "Hexagonal Cogwheel Game"}
 }
 
-$contents = [
+$contents = [ # posts
+    {
+        code: :gen,
+        index: 4,
+        title: "Third time's the charm or whtever they say",
+        img_alt: "nb flag",
+        date:
+        {
+            year: 2026,
+            month: 11,
+            day: 8
+        },
+        post_desc: "also i'm enby now"
+    },
     {
         code: :gen,
         index: 3,

@@ -1,5 +1,5 @@
 a {
-  color: #0000c0;
+  color: #e0c020;
   text-decoration: none;
   transition: 500ms cubic-bezier(0.19, 1, 0.22, 1) color;
 }
@@ -19,7 +19,7 @@ html body nav ul {
   display: inline;
   padding: 0;
   list-style-type: none;
-  color: #a0a0a0;
+  color: rgba(192, 192, 192, 0.7529411765);
 }
 html body nav {
   width: 100%;
@@ -27,8 +27,8 @@ html body nav {
   position: sticky;
   z-index: 1;
   top: 0;
-  background-color: #c00040;
-  border-color: #c055ff;
+  background-color: #8020e0;
+  border-color: #202020;
   border-style: none none solid none;
   border-width: 0.25rem;
 }
@@ -45,7 +45,7 @@ html body .z-wrapper .foreground .post .codename {
 html body .z-wrapper .foreground .post .fullname {
   font-size: 32px;
   font-weight: 900;
-  color: #a0a0a0;
+  color: rgba(192, 192, 192, 0.7529411765);
   display: inline;
 }
 html body .z-wrapper .foreground .post .img-box {
@@ -74,17 +74,24 @@ html body .z-wrapper .noise-bg > * {
 html body .z-wrapper .grad-bg > * {
   background: linear-gradient(to bottom in oklab, var(--start-clr) var(--left-val), var(--end-clr) var(--right-val));
 }
-html body .z-wrapper .purpl-bg {
-  --start-clr: #c055ff;
+html body .z-wrapper .yellow-bg {
+  --start-clr: #e0c020;
   --left-val: 0%;
-  --mid-val: 10%;
-  --right-val: 10%;
+  --mid-val: 25%;
+  --right-val: 25%;
   --end-clr: transparent;
+}
+html body .z-wrapper .white-bg {
+  --start-clr: #c0c0c0;
+  --left-val: 0%;
+  --mid-val: 50%;
+  --right-val: 100%;
+  --end-clr: #8020e0;
 }
 html body .z-wrapper .black-bg {
   --start-clr: transparent;
-  --left-val: 80%;
-  --mid-val: 80%;
+  --left-val: 75%;
+  --mid-val: 75%;
   --right-val: 100%;
   --end-clr: black;
 }
@@ -2108,7 +2115,7 @@ a:hover {
 .box {
   max-width: calc(90vmin - 2rem);
   margin-inline: auto;
-  background-color: rgba(192, 0, 64, 0.25);
+  background-color: rgba(32, 32, 32, 0.5);
   border-width: 0.25rem;
   border-style: solid;
   margin: 1rem 1rem 0rem 1rem;
@@ -2117,10 +2124,10 @@ a:hover {
   word-break: normal;
   overflow-wrap: anywhere;
   overflow-x: visible;
-  border-color: #c055ff;
+  border-color: #8020e0;
 }
 .box:not(:has(.box)) {
-  background-color: rgba(192, 0, 64, 0.25);
+  background-color: rgba(32, 32, 32, 0.5);
   border-width: 0.25rem;
   border-style: solid;
   margin: 1rem 1rem 0rem 1rem;
@@ -2129,7 +2136,7 @@ a:hover {
   word-break: normal;
   overflow-wrap: anywhere;
   overflow-x: visible;
-  border-color: #c00040;
+  border-color: #202020;
 }
 .box:not(.box .box) {
   margin: 1rem auto;
